@@ -360023,6 +360023,1540 @@
     "virtualLiveInformation": {}
   },
   {
+    "id": 400,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（一歌）",
+    "assetbundleName": "mc_5th_vlmessage_01",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2123,
+        "virtualLiveId": 400,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_01",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3278,
+        "virtualLiveId": 400,
+        "gameCharacterUnitId": 1,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 735,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 400,
+        "resourceBoxId": 694
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 400,
+      "virtualLiveId": 400,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 37,
+        "virtualLiveId": 400,
+        "backgroundMusicId": 49
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 401,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（咲希）",
+    "assetbundleName": "mc_5th_vlmessage_02",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2124,
+        "virtualLiveId": 401,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_02",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3279,
+        "virtualLiveId": 401,
+        "gameCharacterUnitId": 2,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 736,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 401,
+        "resourceBoxId": 695
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 401,
+      "virtualLiveId": 401,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 38,
+        "virtualLiveId": 401,
+        "backgroundMusicId": 11
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 402,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（穂波）",
+    "assetbundleName": "mc_5th_vlmessage_03",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2125,
+        "virtualLiveId": 402,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_03",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3280,
+        "virtualLiveId": 402,
+        "gameCharacterUnitId": 3,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 737,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 402,
+        "resourceBoxId": 696
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 402,
+      "virtualLiveId": 402,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 39,
+        "virtualLiveId": 402,
+        "backgroundMusicId": 15
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 403,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（志歩）",
+    "assetbundleName": "mc_5th_vlmessage_04",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2126,
+        "virtualLiveId": 403,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_04",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3281,
+        "virtualLiveId": 403,
+        "gameCharacterUnitId": 4,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 738,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 403,
+        "resourceBoxId": 697
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 403,
+      "virtualLiveId": 403,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 40,
+        "virtualLiveId": 403,
+        "backgroundMusicId": 32
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 404,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（みのり）",
+    "assetbundleName": "mc_5th_vlmessage_05",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2127,
+        "virtualLiveId": 404,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_05",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3282,
+        "virtualLiveId": 404,
+        "gameCharacterUnitId": 5,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 739,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 404,
+        "resourceBoxId": 698
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 404,
+      "virtualLiveId": 404,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 41,
+        "virtualLiveId": 404,
+        "backgroundMusicId": 69
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 405,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（遥）",
+    "assetbundleName": "mc_5th_vlmessage_06",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2128,
+        "virtualLiveId": 405,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_06",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3283,
+        "virtualLiveId": 405,
+        "gameCharacterUnitId": 6,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 740,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 405,
+        "resourceBoxId": 699
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 405,
+      "virtualLiveId": 405,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 42,
+        "virtualLiveId": 405,
+        "backgroundMusicId": 13
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 406,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（愛莉）",
+    "assetbundleName": "mc_5th_vlmessage_07",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2129,
+        "virtualLiveId": 406,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_07",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3284,
+        "virtualLiveId": 406,
+        "gameCharacterUnitId": 7,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 741,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 406,
+        "resourceBoxId": 700
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 406,
+      "virtualLiveId": 406,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 43,
+        "virtualLiveId": 406,
+        "backgroundMusicId": 28
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 407,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（雫）",
+    "assetbundleName": "mc_5th_vlmessage_08",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2130,
+        "virtualLiveId": 407,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_08",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3285,
+        "virtualLiveId": 407,
+        "gameCharacterUnitId": 8,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 742,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 407,
+        "resourceBoxId": 701
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 407,
+      "virtualLiveId": 407,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 44,
+        "virtualLiveId": 407,
+        "backgroundMusicId": 53
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 408,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（こはね）",
+    "assetbundleName": "mc_5th_vlmessage_09",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2131,
+        "virtualLiveId": 408,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_09",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3286,
+        "virtualLiveId": 408,
+        "gameCharacterUnitId": 9,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 743,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 408,
+        "resourceBoxId": 702
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 408,
+      "virtualLiveId": 408,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 45,
+        "virtualLiveId": 408,
+        "backgroundMusicId": 70
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 409,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（杏）",
+    "assetbundleName": "mc_5th_vlmessage_10",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2132,
+        "virtualLiveId": 409,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_10",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3287,
+        "virtualLiveId": 409,
+        "gameCharacterUnitId": 10,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 744,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 409,
+        "resourceBoxId": 703
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 409,
+      "virtualLiveId": 409,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 46,
+        "virtualLiveId": 409,
+        "backgroundMusicId": 71
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 410,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（彰人）",
+    "assetbundleName": "mc_5th_vlmessage_11",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2133,
+        "virtualLiveId": 410,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_11",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3288,
+        "virtualLiveId": 410,
+        "gameCharacterUnitId": 11,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 745,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 410,
+        "resourceBoxId": 704
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 410,
+      "virtualLiveId": 410,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 47,
+        "virtualLiveId": 410,
+        "backgroundMusicId": 72
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 411,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（冬弥）",
+    "assetbundleName": "mc_5th_vlmessage_12",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2134,
+        "virtualLiveId": 411,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_12",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3289,
+        "virtualLiveId": 411,
+        "gameCharacterUnitId": 12,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 746,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 411,
+        "resourceBoxId": 705
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 411,
+      "virtualLiveId": 411,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 48,
+        "virtualLiveId": 411,
+        "backgroundMusicId": 40
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 412,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（司）",
+    "assetbundleName": "mc_5th_vlmessage_13",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2135,
+        "virtualLiveId": 412,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_13",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3290,
+        "virtualLiveId": 412,
+        "gameCharacterUnitId": 13,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 747,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 412,
+        "resourceBoxId": 706
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 412,
+      "virtualLiveId": 412,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 49,
+        "virtualLiveId": 412,
+        "backgroundMusicId": 73
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 413,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（えむ）",
+    "assetbundleName": "mc_5th_vlmessage_14",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2136,
+        "virtualLiveId": 413,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_14",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3291,
+        "virtualLiveId": 413,
+        "gameCharacterUnitId": 14,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 748,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 413,
+        "resourceBoxId": 707
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 413,
+      "virtualLiveId": 413,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 50,
+        "virtualLiveId": 413,
+        "backgroundMusicId": 74
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 414,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（寧々）",
+    "assetbundleName": "mc_5th_vlmessage_15",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2137,
+        "virtualLiveId": 414,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_15",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3292,
+        "virtualLiveId": 414,
+        "gameCharacterUnitId": 15,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 749,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 414,
+        "resourceBoxId": 708
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 414,
+      "virtualLiveId": 414,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 51,
+        "virtualLiveId": 414,
+        "backgroundMusicId": 76
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 415,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（類）",
+    "assetbundleName": "mc_5th_vlmessage_16",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2138,
+        "virtualLiveId": 415,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_16",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3293,
+        "virtualLiveId": 415,
+        "gameCharacterUnitId": 16,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 750,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 415,
+        "resourceBoxId": 709
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 415,
+      "virtualLiveId": 415,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 52,
+        "virtualLiveId": 415,
+        "backgroundMusicId": 77
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 416,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（奏）",
+    "assetbundleName": "mc_5th_vlmessage_17",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2139,
+        "virtualLiveId": 416,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_17",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3294,
+        "virtualLiveId": 416,
+        "gameCharacterUnitId": 17,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 751,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 416,
+        "resourceBoxId": 710
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 416,
+      "virtualLiveId": 416,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 53,
+        "virtualLiveId": 416,
+        "backgroundMusicId": 78
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 417,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（まふゆ）",
+    "assetbundleName": "mc_5th_vlmessage_18",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2140,
+        "virtualLiveId": 417,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_18",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3295,
+        "virtualLiveId": 417,
+        "gameCharacterUnitId": 18,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 752,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 417,
+        "resourceBoxId": 711
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 417,
+      "virtualLiveId": 417,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 54,
+        "virtualLiveId": 417,
+        "backgroundMusicId": 75
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 418,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（絵名）",
+    "assetbundleName": "mc_5th_vlmessage_19",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2141,
+        "virtualLiveId": 418,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_19",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3296,
+        "virtualLiveId": 418,
+        "gameCharacterUnitId": 19,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 753,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 418,
+        "resourceBoxId": 712
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 418,
+      "virtualLiveId": 418,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 55,
+        "virtualLiveId": 418,
+        "backgroundMusicId": 79
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 419,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（瑞希）",
+    "assetbundleName": "mc_5th_vlmessage_20",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2142,
+        "virtualLiveId": 419,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_20",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3297,
+        "virtualLiveId": 419,
+        "gameCharacterUnitId": 20,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 754,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 419,
+        "resourceBoxId": 713
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 419,
+      "virtualLiveId": 419,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 56,
+        "virtualLiveId": 419,
+        "backgroundMusicId": 80
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 420,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（ミク）",
+    "assetbundleName": "mc_5th_vlmessage_21",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2143,
+        "virtualLiveId": 420,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_21",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3298,
+        "virtualLiveId": 420,
+        "gameCharacterUnitId": 21,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 755,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 420,
+        "resourceBoxId": 714
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 420,
+      "virtualLiveId": 420,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 57,
+        "virtualLiveId": 420,
+        "backgroundMusicId": 24
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 421,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（リン）",
+    "assetbundleName": "mc_5th_vlmessage_22",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2144,
+        "virtualLiveId": 421,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_22",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3299,
+        "virtualLiveId": 421,
+        "gameCharacterUnitId": 22,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 756,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 421,
+        "resourceBoxId": 715
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 421,
+      "virtualLiveId": 421,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 58,
+        "virtualLiveId": 421,
+        "backgroundMusicId": 25
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 422,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（レン）",
+    "assetbundleName": "mc_5th_vlmessage_23",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2145,
+        "virtualLiveId": 422,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_23",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3300,
+        "virtualLiveId": 422,
+        "gameCharacterUnitId": 23,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 757,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 422,
+        "resourceBoxId": 716
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 422,
+      "virtualLiveId": 422,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 59,
+        "virtualLiveId": 422,
+        "backgroundMusicId": 26
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 423,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（ルカ）",
+    "assetbundleName": "mc_5th_vlmessage_24",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2146,
+        "virtualLiveId": 423,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_24",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3301,
+        "virtualLiveId": 423,
+        "gameCharacterUnitId": 24,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 758,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 423,
+        "resourceBoxId": 717
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 423,
+      "virtualLiveId": 423,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 60,
+        "virtualLiveId": 423,
+        "backgroundMusicId": 46
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 424,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（MEIKO）",
+    "assetbundleName": "mc_5th_vlmessage_25",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2147,
+        "virtualLiveId": 424,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_25",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3302,
+        "virtualLiveId": 424,
+        "gameCharacterUnitId": 25,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 759,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 424,
+        "resourceBoxId": 718
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 424,
+      "virtualLiveId": 424,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 61,
+        "virtualLiveId": 424,
+        "backgroundMusicId": 27
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 425,
+    "virtualLiveType": "virtual_message",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "5th Anniversary Special Message（KAITO）",
+    "assetbundleName": "mc_5th_vlmessage_26",
+    "startAt": 1760194800000,
+    "endAt": 1761922799000,
+    "virtualLiveGroupId": 1,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2148,
+        "virtualLiveId": 425,
+        "seq": 1,
+        "virtualLiveSetlistType": "virtual_message",
+        "assetbundleName": "mc_5th_vlmessage_26",
+        "virtualLiveStageId": 28
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [],
+    "virtualLiveCharacters": [
+      {
+        "id": 3303,
+        "virtualLiveId": 425,
+        "gameCharacterUnitId": 26,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 760,
+        "virtualLiveType": "virtual_message",
+        "virtualLiveId": 425,
+        "resourceBoxId": 719
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 425,
+      "virtualLiveId": 425,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760194800000,
+      "endAt": 1761922799000
+    },
+    "virtualItems": [],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [
+      {
+        "id": 62,
+        "virtualLiveId": 425,
+        "backgroundMusicId": 47
+      }
+    ],
+    "virtualLiveInformation": {}
+  },
+  {
     "id": 426,
     "virtualLiveType": "normal",
     "virtualLivePlatform": "v2",
@@ -363017,6 +364551,1113 @@
         "backgroundMusicId": 67
       }
     ],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 429,
+    "virtualLiveType": "normal",
+    "virtualLivePlatform": "v2",
+    "seq": 110,
+    "name": "君と繋ぐHeart Beat アフターライブ",
+    "assetbundleName": "vlentrance_00429",
+    "screenMvMusicVocalId": 1505,
+    "startAt": 1760162400000,
+    "endAt": 1761026399000,
+    "rankingAnnounceAt": 4102412399000,
+    "archiveReleaseConditionId": 118108,
+    "virtualLiveSetlists": [
+      {
+        "id": 2163,
+        "virtualLiveId": 429,
+        "seq": 1,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_bd_2025ichika_1",
+        "virtualLiveStageId": 2
+      },
+      {
+        "id": 2164,
+        "virtualLiveId": 429,
+        "seq": 2,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0148_001",
+        "virtualLiveStageId": 2,
+        "musicId": 148,
+        "musicVocalId": 307,
+        "character3dId1": 2057,
+        "character3dId2": 2058,
+        "character3dId3": 2059,
+        "character3dId4": 2060,
+        "character3dId5": 2061
+      },
+      {
+        "id": 2165,
+        "virtualLiveId": 429,
+        "seq": 3,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_bd_2025ichika_2",
+        "virtualLiveStageId": 2,
+        "musicId": 148,
+        "musicVocalId": 307
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [
+      {
+        "id": 6201,
+        "virtualLiveId": 429,
+        "seq": 1,
+        "startAt": 1760878800000,
+        "endAt": 1760879303000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6202,
+        "virtualLiveId": 429,
+        "seq": 2,
+        "startAt": 1760882400000,
+        "endAt": 1760882903000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6203,
+        "virtualLiveId": 429,
+        "seq": 3,
+        "startAt": 1760886000000,
+        "endAt": 1760886503000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6204,
+        "virtualLiveId": 429,
+        "seq": 4,
+        "startAt": 1760889600000,
+        "endAt": 1760890103000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6205,
+        "virtualLiveId": 429,
+        "seq": 5,
+        "startAt": 1760893200000,
+        "endAt": 1760893703000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6206,
+        "virtualLiveId": 429,
+        "seq": 6,
+        "startAt": 1760896800000,
+        "endAt": 1760897303000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6207,
+        "virtualLiveId": 429,
+        "seq": 7,
+        "startAt": 1760900400000,
+        "endAt": 1760900903000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6208,
+        "virtualLiveId": 429,
+        "seq": 8,
+        "startAt": 1760904000000,
+        "endAt": 1760904503000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6209,
+        "virtualLiveId": 429,
+        "seq": 9,
+        "startAt": 1760907600000,
+        "endAt": 1760908103000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6210,
+        "virtualLiveId": 429,
+        "seq": 10,
+        "startAt": 1760911200000,
+        "endAt": 1760911703000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6211,
+        "virtualLiveId": 429,
+        "seq": 11,
+        "startAt": 1760914800000,
+        "endAt": 1760915303000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6212,
+        "virtualLiveId": 429,
+        "seq": 12,
+        "startAt": 1760918400000,
+        "endAt": 1760918903000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6213,
+        "virtualLiveId": 429,
+        "seq": 13,
+        "startAt": 1760922000000,
+        "endAt": 1760922503000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6214,
+        "virtualLiveId": 429,
+        "seq": 14,
+        "startAt": 1760925600000,
+        "endAt": 1760926103000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6215,
+        "virtualLiveId": 429,
+        "seq": 15,
+        "startAt": 1760929200000,
+        "endAt": 1760929703000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6216,
+        "virtualLiveId": 429,
+        "seq": 16,
+        "startAt": 1760932800000,
+        "endAt": 1760933303000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6217,
+        "virtualLiveId": 429,
+        "seq": 17,
+        "startAt": 1760936400000,
+        "endAt": 1760936903000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6218,
+        "virtualLiveId": 429,
+        "seq": 18,
+        "startAt": 1760940000000,
+        "endAt": 1760940503000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6219,
+        "virtualLiveId": 429,
+        "seq": 19,
+        "startAt": 1760943600000,
+        "endAt": 1760944103000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6220,
+        "virtualLiveId": 429,
+        "seq": 20,
+        "startAt": 1760947200000,
+        "endAt": 1760947703000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6221,
+        "virtualLiveId": 429,
+        "seq": 21,
+        "startAt": 1760950800000,
+        "endAt": 1760951303000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6222,
+        "virtualLiveId": 429,
+        "seq": 22,
+        "startAt": 1760954400000,
+        "endAt": 1760954903000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6223,
+        "virtualLiveId": 429,
+        "seq": 23,
+        "startAt": 1760958000000,
+        "endAt": 1760958503000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6224,
+        "virtualLiveId": 429,
+        "seq": 24,
+        "startAt": 1760961600000,
+        "endAt": 1760962103000,
+        "isAfterEvent": false
+      }
+    ],
+    "virtualLiveCharacters": [
+      {
+        "id": 3334,
+        "virtualLiveId": 429,
+        "gameCharacterUnitId": 1,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3335,
+        "virtualLiveId": 429,
+        "gameCharacterUnitId": 2,
+        "seq": 2,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3336,
+        "virtualLiveId": 429,
+        "gameCharacterUnitId": 3,
+        "seq": 3,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3337,
+        "virtualLiveId": 429,
+        "gameCharacterUnitId": 4,
+        "seq": 4,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3338,
+        "virtualLiveId": 429,
+        "gameCharacterUnitId": 25,
+        "seq": 5,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 768,
+        "virtualLiveType": "normal",
+        "virtualLiveId": 429,
+        "resourceBoxId": 727
+      },
+      {
+        "id": 769,
+        "virtualLiveType": "archive",
+        "virtualLiveId": 429,
+        "resourceBoxId": 728
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 429,
+      "virtualLiveId": 429,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1760162400000,
+      "endAt": 1761026399000
+    },
+    "virtualItems": [
+      {
+        "id": 1,
+        "virtualItemCategory": "normal",
+        "seq": 10,
+        "priority": 10,
+        "name": "紙吹雪",
+        "assetbundleName": "cracker_001",
+        "costVirtualCoin": 30,
+        "costJewel": 10,
+        "effectAssetbundleName": "cracker_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 2,
+        "virtualItemCategory": "normal",
+        "seq": 20,
+        "priority": 20,
+        "name": "風船",
+        "assetbundleName": "baloon_001",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "baloon_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 4,
+        "virtualItemCategory": "normal",
+        "seq": 40,
+        "priority": 40,
+        "name": "ハート",
+        "assetbundleName": "heart_001",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "heart_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 5,
+        "virtualItemCategory": "spread",
+        "seq": 150,
+        "priority": 50,
+        "name": "レーザー",
+        "assetbundleName": "leser_all_001",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "leser_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 6,
+        "virtualItemCategory": "spread",
+        "seq": 170,
+        "priority": 60,
+        "name": "セカイの想い",
+        "assetbundleName": "sekai_all_001",
+        "costVirtualCoin": 3000,
+        "costJewel": 1000,
+        "effectAssetbundleName": "sekai_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 8,
+        "virtualItemCategory": "spread",
+        "seq": 160,
+        "priority": 80,
+        "name": "雪",
+        "assetbundleName": "snow_all_001",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "snow_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 9,
+        "virtualItemCategory": "spread",
+        "seq": 110,
+        "priority": 100,
+        "name": "三つ葉のクローバー",
+        "assetbundleName": "unit_clover_morejump",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_clover_morejump",
+        "effectExpressionType": "throw_effect",
+        "unit": "idol"
+      },
+      {
+        "id": 10,
+        "virtualItemCategory": "spread",
+        "seq": 140,
+        "priority": 130,
+        "name": "割れたココロ",
+        "assetbundleName": "unit_heart_25night",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_heart_25night",
+        "effectExpressionType": "throw_effect",
+        "unit": "school_refusal"
+      },
+      {
+        "id": 11,
+        "virtualItemCategory": "spread",
+        "seq": 130,
+        "priority": 120,
+        "name": "ショウの王冠",
+        "assetbundleName": "unit_king_wonder",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_king_wonder",
+        "effectExpressionType": "throw_effect",
+        "unit": "theme_park"
+      },
+      {
+        "id": 12,
+        "virtualItemCategory": "spread",
+        "seq": 90,
+        "priority": 140,
+        "name": "6人の音色",
+        "assetbundleName": "unit_sing_piapro",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_sing_piapro",
+        "effectExpressionType": "throw_effect",
+        "unit": "piapro"
+      },
+      {
+        "id": 13,
+        "virtualItemCategory": "spread",
+        "seq": 100,
+        "priority": 90,
+        "name": "しし座流星群",
+        "assetbundleName": "unit_star_leoneed",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_star_leoneed",
+        "effectExpressionType": "throw_effect",
+        "unit": "light_sound"
+      },
+      {
+        "id": 14,
+        "virtualItemCategory": "spread",
+        "seq": 120,
+        "priority": 110,
+        "name": "レコードの落書き",
+        "assetbundleName": "unit_record_vivibad",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_record_vivibad",
+        "effectExpressionType": "throw_effect",
+        "unit": "street"
+      },
+      {
+        "id": 15,
+        "virtualItemCategory": "normal",
+        "seq": 30,
+        "priority": 150,
+        "name": "打ち上げ花火",
+        "assetbundleName": "fireworks_rocket",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "fireworks_rocket",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 18,
+        "virtualItemCategory": "normal",
+        "seq": 50,
+        "priority": 180,
+        "name": "尊いうちわ",
+        "assetbundleName": "uchiwa",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "uchiwa",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 19,
+        "virtualItemCategory": "normal",
+        "seq": 250,
+        "priority": 190,
+        "name": "鳴り響くギター",
+        "assetbundleName": "chara_ichika",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ichika",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 1
+      },
+      {
+        "id": 20,
+        "virtualItemCategory": "normal",
+        "seq": 260,
+        "priority": 200,
+        "name": "元気な笑顔",
+        "assetbundleName": "chara_saki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_saki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 2
+      },
+      {
+        "id": 21,
+        "virtualItemCategory": "normal",
+        "seq": 270,
+        "priority": 210,
+        "name": "絶品アップルパイ",
+        "assetbundleName": "chara_honami",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_honami",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 3
+      },
+      {
+        "id": 22,
+        "virtualItemCategory": "normal",
+        "seq": 280,
+        "priority": 220,
+        "name": "あつあつラーメン",
+        "assetbundleName": "chara_shiho",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shiho",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 23,
+        "virtualItemCategory": "normal",
+        "seq": 290,
+        "priority": 230,
+        "name": "みのりんコール",
+        "assetbundleName": "chara_minori",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_minori",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 5
+      },
+      {
+        "id": 24,
+        "virtualItemCategory": "normal",
+        "seq": 300,
+        "priority": 240,
+        "name": "応援ペンギン",
+        "assetbundleName": "chara_haruka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_haruka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 6
+      },
+      {
+        "id": 25,
+        "virtualItemCategory": "normal",
+        "seq": 310,
+        "priority": 250,
+        "name": "ハートピーチ",
+        "assetbundleName": "chara_airi",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_airi",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 7
+      },
+      {
+        "id": 26,
+        "virtualItemCategory": "normal",
+        "seq": 320,
+        "priority": 260,
+        "name": "なごみの声",
+        "assetbundleName": "chara_shizuku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shizuku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 8
+      },
+      {
+        "id": 27,
+        "virtualItemCategory": "normal",
+        "seq": 330,
+        "priority": 270,
+        "name": "ハムラップ",
+        "assetbundleName": "chara_kohane",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kohane",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 9
+      },
+      {
+        "id": 28,
+        "virtualItemCategory": "normal",
+        "seq": 340,
+        "priority": 280,
+        "name": "コーヒーアート",
+        "assetbundleName": "chara_an",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_an",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 10
+      },
+      {
+        "id": 29,
+        "virtualItemCategory": "normal",
+        "seq": 350,
+        "priority": 290,
+        "name": "リバーシブル",
+        "assetbundleName": "chara_akito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_akito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 11
+      },
+      {
+        "id": 30,
+        "virtualItemCategory": "normal",
+        "seq": 360,
+        "priority": 300,
+        "name": "山積みの蔵書",
+        "assetbundleName": "chara_toya",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_toya",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 12
+      },
+      {
+        "id": 31,
+        "virtualItemCategory": "normal",
+        "seq": 370,
+        "priority": 310,
+        "name": "ショー☆スター",
+        "assetbundleName": "chara_tukasa",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_tukasa",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 13
+      },
+      {
+        "id": 32,
+        "virtualItemCategory": "normal",
+        "seq": 380,
+        "priority": 320,
+        "name": "一緒にわんだほーい",
+        "assetbundleName": "chara_emu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_emu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 14
+      },
+      {
+        "id": 33,
+        "virtualItemCategory": "normal",
+        "seq": 390,
+        "priority": 330,
+        "name": "ネネロボ発進！",
+        "assetbundleName": "chara_nene",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_nene",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 15
+      },
+      {
+        "id": 34,
+        "virtualItemCategory": "normal",
+        "seq": 400,
+        "priority": 340,
+        "name": "ドローンマジック",
+        "assetbundleName": "chara_rui",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rui",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 16
+      },
+      {
+        "id": 35,
+        "virtualItemCategory": "normal",
+        "seq": 410,
+        "priority": 350,
+        "name": "即席カップ麵",
+        "assetbundleName": "chara_kanade",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kanade",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 17
+      },
+      {
+        "id": 36,
+        "virtualItemCategory": "normal",
+        "seq": 420,
+        "priority": 360,
+        "name": "消えたい気持ち",
+        "assetbundleName": "chara_mafuyu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mafuyu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 18
+      },
+      {
+        "id": 37,
+        "virtualItemCategory": "normal",
+        "seq": 430,
+        "priority": 370,
+        "name": "いいねマーク",
+        "assetbundleName": "chara_ena",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ena",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 19
+      },
+      {
+        "id": 38,
+        "virtualItemCategory": "normal",
+        "seq": 440,
+        "priority": 380,
+        "name": "可愛いリボン",
+        "assetbundleName": "chara_mizuki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mizuki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 20
+      },
+      {
+        "id": 39,
+        "virtualItemCategory": "normal",
+        "seq": 150,
+        "priority": 390,
+        "name": "ネギステッキ",
+        "assetbundleName": "chara_miku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_miku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 21
+      },
+      {
+        "id": 40,
+        "virtualItemCategory": "normal",
+        "seq": 160,
+        "priority": 400,
+        "name": "はじけるミカン",
+        "assetbundleName": "chara_rin",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rin",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 22
+      },
+      {
+        "id": 41,
+        "virtualItemCategory": "normal",
+        "seq": 170,
+        "priority": 410,
+        "name": "おやつのバナナ",
+        "assetbundleName": "chara_len",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_len",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 23
+      },
+      {
+        "id": 42,
+        "virtualItemCategory": "normal",
+        "seq": 180,
+        "priority": 420,
+        "name": "オオマさん",
+        "assetbundleName": "chara_luka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_luka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 24
+      },
+      {
+        "id": 43,
+        "virtualItemCategory": "normal",
+        "seq": 190,
+        "priority": 430,
+        "name": "乾杯ワイン",
+        "assetbundleName": "chara_meiko",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_meiko",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 25
+      },
+      {
+        "id": 44,
+        "virtualItemCategory": "normal",
+        "seq": 200,
+        "priority": 440,
+        "name": "アイスバー",
+        "assetbundleName": "chara_kaito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kaito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 26
+      },
+      {
+        "id": 46,
+        "virtualItemCategory": "normal",
+        "seq": 460,
+        "priority": 460,
+        "name": "プラネタリウム",
+        "assetbundleName": "event_planetarium",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_planetarium",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 47,
+        "virtualItemCategory": "normal",
+        "seq": 470,
+        "priority": 470,
+        "name": "マリオネット人形",
+        "assetbundleName": "event_marionette",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_marionette",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 50,
+        "virtualItemCategory": "normal",
+        "seq": 500,
+        "priority": 500,
+        "name": "ロボットゾンビ",
+        "assetbundleName": "event_zombie",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_zombie",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 53,
+        "virtualItemCategory": "normal",
+        "seq": 530,
+        "priority": 530,
+        "name": "水玉ハート",
+        "assetbundleName": "event_restart",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_restart",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 54,
+        "virtualItemCategory": "normal",
+        "seq": 540,
+        "priority": 540,
+        "name": "ミュージックバトル",
+        "assetbundleName": "event_forward",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_forward",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 56,
+        "virtualItemCategory": "normal",
+        "seq": 560,
+        "priority": 560,
+        "name": "クリスマスネネロボ",
+        "assetbundleName": "event_nijiiro",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_nijiiro",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 68,
+        "virtualItemCategory": "normal",
+        "seq": 680,
+        "priority": 680,
+        "name": "合唱コンクール",
+        "assetbundleName": "event_hareomatsu",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hareomatsu",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 69,
+        "virtualItemCategory": "normal",
+        "seq": 690,
+        "priority": 690,
+        "name": "舞降る花びら",
+        "assetbundleName": "event_color",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_color",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 72,
+        "virtualItemCategory": "normal",
+        "seq": 720,
+        "priority": 720,
+        "name": "バイオリンの音色",
+        "assetbundleName": "event_nocturne",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_nocturne",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 76,
+        "virtualItemCategory": "normal",
+        "seq": 760,
+        "priority": 760,
+        "name": "雨上がりの空",
+        "assetbundleName": "event_infinitelygray",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_infinitelygray",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 78,
+        "virtualItemCategory": "normal",
+        "seq": 780,
+        "priority": 780,
+        "name": "ワンダーフェリスホイール",
+        "assetbundleName": "event_dream",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_dream",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 79,
+        "virtualItemCategory": "normal",
+        "seq": 790,
+        "priority": 790,
+        "name": "天馬兄妹のひな祭り",
+        "assetbundleName": "event_hinamatsuri",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hinamatsuri",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 82,
+        "virtualItemCategory": "normal",
+        "seq": 820,
+        "priority": 820,
+        "name": "天使の羽ばたき",
+        "assetbundleName": "event_angelclover",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_angelclover",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 83,
+        "virtualItemCategory": "normal",
+        "seq": 830,
+        "priority": 830,
+        "name": "桜吹雪",
+        "assetbundleName": "event_hanami",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hanami",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 84,
+        "virtualItemCategory": "normal",
+        "seq": 840,
+        "priority": 840,
+        "name": "シークレット",
+        "assetbundleName": "event_secret",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_secret",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 86,
+        "virtualItemCategory": "normal",
+        "seq": 860,
+        "priority": 860,
+        "name": "FIRST LIVE",
+        "assetbundleName": "event_resonate",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_resonate",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 88,
+        "virtualItemCategory": "normal",
+        "seq": 880,
+        "priority": 880,
+        "name": "Cheers Microphones",
+        "assetbundleName": "event_stray",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_stray",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 90,
+        "virtualItemCategory": "normal",
+        "seq": 900,
+        "priority": 900,
+        "name": "Forest Fairy",
+        "assetbundleName": "event_picnic",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_picnic",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 92,
+        "virtualItemCategory": "normal",
+        "seq": 920,
+        "priority": 920,
+        "name": "コウテイペンギンデラックスパフェ",
+        "assetbundleName": "event_breaktime",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_breaktime",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 94,
+        "virtualItemCategory": "normal",
+        "seq": 940,
+        "priority": 940,
+        "name": "フラワーシャワー",
+        "assetbundleName": "event_bridal",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_bridal",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 95,
+        "virtualItemCategory": "normal",
+        "seq": 950,
+        "priority": 950,
+        "name": "魔法のワンダーランド",
+        "assetbundleName": "event_wonders",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_wonders",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 96,
+        "virtualItemCategory": "normal",
+        "seq": 960,
+        "priority": 960,
+        "name": "想い出のオルゴール",
+        "assetbundleName": "event_carnation",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_carnation",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 98,
+        "virtualItemCategory": "normal",
+        "seq": 980,
+        "priority": 980,
+        "name": "シンセサイザー",
+        "assetbundleName": "event_unnamed",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_unnamed",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 100,
+        "virtualItemCategory": "normal",
+        "seq": 1000,
+        "priority": 1000,
+        "name": "ビーストオンステージ",
+        "assetbundleName": "event_awakening",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_awakening",
+        "effectExpressionType": "throw_effect"
+      }
+    ],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [],
     "virtualLiveInformation": {}
   },
   {

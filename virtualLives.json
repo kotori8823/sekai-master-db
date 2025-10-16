@@ -364571,33 +364571,33 @@
         "virtualLiveId": 429,
         "seq": 1,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_bd_2025ichika_1",
-        "virtualLiveStageId": 2
+        "assetbundleName": "mc_ev_band_22_1",
+        "virtualLiveStageId": 7
       },
       {
         "id": 2164,
         "virtualLiveId": 429,
         "seq": 2,
         "virtualLiveSetlistType": "music",
-        "assetbundleName": "0148_001",
-        "virtualLiveStageId": 2,
-        "musicId": 148,
-        "musicVocalId": 307,
-        "character3dId1": 2057,
-        "character3dId2": 2058,
-        "character3dId3": 2059,
-        "character3dId4": 2060,
-        "character3dId5": 2061
+        "assetbundleName": "0570_001",
+        "virtualLiveStageId": 7,
+        "musicId": 570,
+        "musicVocalId": 1706,
+        "character3dId1": 2123,
+        "character3dId2": 2124,
+        "character3dId3": 2125,
+        "character3dId4": 2126,
+        "character3dId5": 2127
       },
       {
         "id": 2165,
         "virtualLiveId": 429,
         "seq": 3,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_bd_2025ichika_2",
-        "virtualLiveStageId": 2,
-        "musicId": 148,
-        "musicVocalId": 307
+        "assetbundleName": "mc_ev_band_22_2",
+        "virtualLiveStageId": 7,
+        "musicId": 570,
+        "musicVocalId": 1706
       }
     ],
     "virtualLiveBeginnerSchedules": [],

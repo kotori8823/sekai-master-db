@@ -371440,33 +371440,33 @@
         "virtualLiveId": 436,
         "seq": 1,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_ev_wonder_22_1",
-        "virtualLiveStageId": 8
+        "assetbundleName": "mc_ev_wonder_23_1",
+        "virtualLiveStageId": 17
       },
       {
         "id": 2191,
         "virtualLiveId": 436,
         "seq": 2,
         "virtualLiveSetlistType": "music",
-        "assetbundleName": "0397_001",
-        "virtualLiveStageId": 8,
-        "musicId": 397,
-        "musicVocalId": 1360,
-        "character3dId1": 2083,
-        "character3dId2": 2086,
-        "character3dId3": 2085,
-        "character3dId4": 2084,
-        "character3dId5": 2087
+        "assetbundleName": "0600_001",
+        "virtualLiveStageId": 17,
+        "musicId": 600,
+        "musicVocalId": 1722,
+        "character3dId1": 2160,
+        "character3dId2": 2161,
+        "character3dId3": 2159,
+        "character3dId4": 2158,
+        "character3dId5": 2162
       },
       {
         "id": 2192,
         "virtualLiveId": 436,
         "seq": 3,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_ev_wonder_22_2",
-        "virtualLiveStageId": 8,
-        "musicId": 397,
-        "musicVocalId": 1360
+        "assetbundleName": "mc_ev_wonder_23_2",
+        "virtualLiveStageId": 17,
+        "musicId": 600,
+        "musicVocalId": 1722
       }
     ],
     "virtualLiveBeginnerSchedules": [],

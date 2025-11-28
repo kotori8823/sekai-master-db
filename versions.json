@@ -1,16 +1,16 @@
 {
   "app_version": "6.1.2",
   "app_hash": "cdc6e74a-53a4-bf6c-f9a4-f297130eb668",
-  "data_version": "6.1.0.76",
-  "asset_version": "6.1.0.76",
-  "asset_hash": "d8cb2068-d62b-c78b-fc2a-2cf2f3a55971",
+  "data_version": "6.1.0.80",
+  "asset_version": "6.1.0.80",
+  "asset_hash": "0404dc73-771b-23e2-e603-05b16b498eec",
   "suitemaster_path": [
-    "suitemasterfile/6.1.0.76/00_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/01_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/02_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/03_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/04_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/05_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642",
-    "suitemasterfile/6.1.0.76/06_f2e765c0e926ac39c233b9908d970a051d0515991c6fb2971f9ccda630782642"
+    "suitemasterfile/6.1.0.80/00_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/01_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/02_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/03_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/04_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/05_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987",
+    "suitemasterfile/6.1.0.80/06_d43662ebb2a7b77d7c740aff500adab4e60635660fcf00b7baede97d01280987"
   ]
 }

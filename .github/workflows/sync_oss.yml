@@ -36,4 +36,4 @@ jobs:
           # --threads 10         : 开启10线程并发上传，大量小文件时速度极快
           # --excludeRegex       : 排除 .git 文件夹和 workflow 配置本身，不上传这些垃圾文件
           
-          b2 sync --threads 10 --excludeRegex '^(\.git|\.github).*' . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
+          b2 sync --threads 10 --excludeDir .git --excludeDir .github . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp

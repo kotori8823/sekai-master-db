@@ -376762,33 +376762,33 @@
         "virtualLiveId": 441,
         "seq": 1,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_ev_idol_22_1",
-        "virtualLiveStageId": 15
+        "assetbundleName": "mc_ev_idol_24_1",
+        "virtualLiveStageId": 5
       },
       {
         "id": 2210,
         "virtualLiveId": 441,
         "seq": 2,
         "virtualLiveSetlistType": "music",
-        "assetbundleName": "0252_001",
-        "virtualLiveStageId": 15,
-        "musicId": 252,
-        "musicVocalId": 625,
-        "character3dId1": 2039,
-        "character3dId2": 2042,
-        "character3dId3": 2041,
-        "character3dId4": 2040,
-        "character3dId5": 2043
+        "assetbundleName": "0610_001",
+        "virtualLiveStageId": 5,
+        "musicId": 610,
+        "musicVocalId": 1739,
+        "character3dId1": 2202,
+        "character3dId2": 2201,
+        "character3dId3": 2205,
+        "character3dId4": 2203,
+        "character3dId5": 2204
       },
       {
         "id": 2211,
         "virtualLiveId": 441,
         "seq": 3,
         "virtualLiveSetlistType": "mc_timeline",
-        "assetbundleName": "mc_ev_idol_22_2",
-        "virtualLiveStageId": 15,
-        "musicId": 252,
-        "musicVocalId": 625
+        "assetbundleName": "mc_ev_idol_24_2",
+        "virtualLiveStageId": 5,
+        "musicId": 610,
+        "musicVocalId": 1739
       }
     ],
     "virtualLiveBeginnerSchedules": [],

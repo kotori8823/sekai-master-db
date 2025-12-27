@@ -31,8 +31,11 @@ jobs:
           b2 account authorize $B2_KEY_ID $B2_APP_KEY > /dev/null
           rm -rf .git .github
           b2 sync --threads 10 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
+          
+      - name: Install Rclone
+        run: sudo -v ; curl https://rclone.org/install.sh | sudo bash
+        
       - name: Sync to R2
-        uses: jakejarvis/rclone-sync-action@master
         env:
           RCLONE_CONFIG_R2_TYPE: s3
           RCLONE_CONFIG_R2_PROVIDER: Cloudflare
@@ -40,8 +43,8 @@ jobs:
           RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
           RCLONE_CONFIG_R2_ACL: public
-        with:
-          args: sync . r2:${{ secrets.R2_BUCKET_NAME }}/pjsk/sekai-db/jp
+        run: |
+          rclone sync . r2:${{ secrets.R2_BUCKET_NAME }}/pjsk/sekai-db/jp --verbose
 
       - name: Install COSCMD
         run: pip install coscmd

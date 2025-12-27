@@ -30,7 +30,7 @@ jobs:
           # 登录 B2
           b2 account authorize $B2_KEY_ID $B2_APP_KEY > /dev/null
           rm -rf .git .github
-          b2 sync --threads 10 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
+          b2 sync --threads 50 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
           
       - name: Install Rclone
         run: |
@@ -65,14 +65,15 @@ jobs:
 
       - name: Sync to Tencent OSS
         env:
-          SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
-          SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-          BUCKET: ${{ secrets.OSS_BUCKET }}
-          REGION: ${{ secrets.OSS_REGION }}
+          RCLONE_CONFIG_TENCENT_TYPE: s3
+          RCLONE_CONFIG_TENCENT_PROVIDER: TencentCOS
+          RCLONE_CONFIG_TENCENT_ACCESS_KEY_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          RCLONE_CONFIG_TENCENT_SECRET_ACCESS_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          RCLONE_CONFIG_TENCENT_ENDPOINT: https://cos.${{ secrets.OSS_REGION }}.myqcloud.com
         run: |
-          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-          # 上传并清理远端多余文件
-          coscmd upload -r . pjsk/sekai-db/jp/ --delete --ignore "*.py"
+          rclone sync . tencent:${{ secrets.OSS_BUCKET }}/sekai-db/jp \
+            --verbose --transfers 32 --checkers 64 \
+            --exclude ".git/**" --exclude ".github/**"
 
       # ========================================================
       # 阶段 2: CDN 缓存清理 (Directory Purge)
@@ -111,50 +112,104 @@ jobs:
           except Exception as e:
               print(f"Error: {e}")
 
-      - name: Purge Tencent EdgeOne Prefix
+      - name: Purge Tencent EdgeOne
         env:
-          TENCENTCLOUD_EO_SECRET_ID: ${{ secrets.RESONACN_TENCENT_SECRET_ID }}
-          TENCENTCLOUD_EO_SECRET_KEY: ${{ secrets.RESONACN_TENCENT_SECRET_KEY }}
+          TENCENT_EO_SECRET_ID: ${{ secrets.RESONACN_TENCENT_SECRET_ID }}
+          TENCENT_EO_SECRET_KEY: ${{ secrets.RESONACN_TENCENT_SECRET_KEY }}
           TEO_ZONE_ID: ${{ secrets.TEO_ZONE_ID }}
         shell: python
         run: |
-          import os, hashlib, hmac, json, time
-          from datetime import datetime
-          try: from http.client import HTTPSConnection
-          except ImportError: from httplib import HTTPSConnection
+          # -*- coding: utf-8 -*-
+          import hashlib, hmac, json, os, sys, time
+          from datetime import datetime, timezone
+          
+          secret_id = os.environ.get("TENCENT_EO_SECRET_ID")
+          secret_key = os.environ.get("TENCENT_EO_SECRET_KEY")
+          zone_id = os.environ.get("TEO_ZONE_ID")
+
+          service = "teo"
+          host = "teo.tencentcloudapi.com"
+          action = "CreatePurgeTask"
+          version = "2022-09-01"
+          algorithm = "TC3-HMAC-SHA256"
+          timestamp = int(time.time())
+          
+          date = datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%d")
+
 
           targets = [
-             "https://cdn.resona.cn/sekai-db/jp/"
+              "https://assets.resona.cn/sekai-db/jp/"
           ]
-
-          secret_id = os.environ.get("TENCENTCLOUD_EO_SECRET_ID")
-          secret_key = os.environ.get("TENCENTCLOUD_EO_SECRET_KEY")
-          zone_id = os.environ.get("TEO_ZONE_ID")
-          host = "teo.tencentcloudapi.com"
-          timestamp = int(time.time())
-          date = datetime.utcfromtimestamp(timestamp).strftime("%Y-%m-%d")
-
-          payload = json.dumps({
+          
+          params = {
               "ZoneId": zone_id,
               "Type": "purge_prefix", 
               "Method": "delete",
               "Targets": targets
-          })
+          }
+          
+          payload = json.dumps(params, separators=(',', ':'))
 
-          def sign(key, msg): return hmac.new(key, msg.encode("utf-8"), hashlib.sha256).digest()
-          canonical_headers = "content-type:application/json; charset=utf-8\nhost:%s\nx-tc-action:createpurgetask\n" % host
-          hashed_payload = hashlib.sha256(payload.encode("utf-8")).hexdigest()
-          canonical_req = "POST\n/\n\n" + canonical_headers + "content-type;host;x-tc-action\n" + hashed_payload
-          cred_scope = date + "/teo/tc3_request"
-          string_to_sign = "TC3-HMAC-SHA256\n" + str(timestamp) + "\n" + cred_scope + "\n" + hashlib.sha256(canonical_req.encode("utf-8")).hexdigest()
+
+          http_request_method = "POST"
+          canonical_uri = "/"
+          canonical_querystring = ""
+          ct = "application/json; charset=utf-8"
+          canonical_headers = "content-type:%s\nhost:%s\n" % (ct, host)
+          signed_headers = "content-type;host"
+          hashed_request_payload = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+          canonical_request = (http_request_method + "\n" +
+                               canonical_uri + "\n" +
+                               canonical_querystring + "\n" +
+                               canonical_headers + "\n" +
+                               signed_headers + "\n" +
+                               hashed_request_payload)
+
+          credential_scope = date + "/" + service + "/" + "tc3_request"
+          hashed_canonical_request = hashlib.sha256(canonical_request.encode("utf-8")).hexdigest()
+          string_to_sign = (algorithm + "\n" +
+                            str(timestamp) + "\n" +
+                            credential_scope + "\n" +
+                            hashed_canonical_request)
+
+          def sign(key, msg):
+              return hmac.new(key, msg.encode("utf-8"), hashlib.sha256).digest()
+          
           secret_date = sign(("TC3" + secret_key).encode("utf-8"), date)
-          signature = hmac.new(sign(sign(secret_date, "teo"), "tc3_request"), string_to_sign.encode("utf-8"), hashlib.sha256).hexdigest()
-          auth = "TC3-HMAC-SHA256 Credential=%s/%s, SignedHeaders=content-type;host;x-tc-action, Signature=%s" % (secret_id, cred_scope, signature)
-
-          print(f"Purging EdgeOne Prefixes: {targets}")
-          conn = HTTPSConnection(host)
-          conn.request("POST", "/", headers={"Authorization": auth, "Content-Type": "application/json; charset=utf-8", "Host": host, "X-TC-Action": "CreatePurgeTask", "X-TC-Timestamp": str(timestamp), "X-TC-Version": "2022-09-01"}, body=payload)
-          print(conn.getresponse().read().decode('utf-8'))
+          secret_service = sign(secret_date, service)
+          secret_signing = sign(secret_service, "tc3_request")
+          signature = hmac.new(secret_signing, string_to_sign.encode("utf-8"), hashlib.sha256).hexdigest()
 
 
+          authorization = (algorithm + " " +
+                           "Credential=" + secret_id + "/" + credential_scope + ", " +
+                           "SignedHeaders=" + signed_headers + ", " +
+                           "Signature=" + signature)
 
+          import requests
+          
+          headers = {
+              "Authorization": authorization,
+              "Content-Type": "application/json; charset=utf-8",
+              "Host": host,
+              "X-TC-Action": action,
+              "X-TC-Timestamp": str(timestamp),
+              "X-TC-Version": version
+          }
+          
+          endpoint = "https://" + host
+          
+          print(f"Purging TEO Targets: {targets}")
+          
+          try:
+              response = requests.post(endpoint, headers=headers, data=payload)
+              
+              print(f"Status Code: {response.status_code}")
+              print(f"Response: {response.text}")
+              
+              if response.status_code != 200 or "Error" in response.text:
+                  sys.exit(1)
+                  
+          except Exception as err:
+              print(f"Request Failed: {err}")
+              sys.exit(1)

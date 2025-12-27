@@ -33,7 +33,16 @@ jobs:
           b2 sync --threads 10 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
           
       - name: Install Rclone
-        run: sudo -v ; curl https://rclone.org/install.sh | sudo bash
+        run: |
+          curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+          unzip -q rclone-current-linux-amd64.zip
+          
+          cd rclone-*-linux-amd64
+          sudo cp rclone /usr/bin/
+          sudo chown root:root /usr/bin/rclone
+          sudo chmod 755 /usr/bin/rclone
+          
+          rclone version
         
       - name: Sync to R2
         env:
@@ -71,13 +80,14 @@ jobs:
         env:
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
         shell: python
         run: |
           import os, requests, json
           bucket_name = os.environ["B2_BUCKET_NAME"]
 
           targets = [
-            "https://cdn.8823.eu.org/file/{bucket_name}/pjsk/sekai-db/jp/"
+            f"https://cdn.8823.eu.org/file/{bucket_name}/pjsk/sekai-db/jp/"
           ]
 
           zone_id = os.environ["CF_ZONE_ID"]

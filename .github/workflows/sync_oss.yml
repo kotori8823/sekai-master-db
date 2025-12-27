@@ -92,7 +92,7 @@ jobs:
           bucket_name = os.environ["B2_BUCKET_NAME"]
 
           targets = [
-            f"https://cdn.8823.eu.org/file/{bucket_name}/pjsk/sekai-db/jp/"
+            f"cdn.8823.eu.org/file/{bucket_name}/pjsk/sekai-db/jp/"
           ]
 
           zone_id = os.environ["CF_ZONE_ID"]
@@ -170,9 +170,9 @@ jobs:
           from alibabacloud_esa20240910.client import Client
           from alibabacloud_esa20240910.models import PurgeCachesRequest
           from alibabacloud_tea_openapi.models import Config
-          domain = os.environ['ALI_DOMAIN']
-          target_directory = f"https://{domain}/sekai-db/jp/"
 
+          domain = os.environ['ALI_DOMAIN']
+          target_directory = f"https://{domain}/sekai-db/jp/" 
           config = Config(
               access_key_id=os.environ['ALI_ID'],
               access_key_secret=os.environ['ALI_SECRET'],
@@ -182,14 +182,13 @@ jobs:
 
           print(f"Purging Aliyun ESA Directory: {target_directory}")
           
-          request = PurgeCachesRequest(
-              site_id=int(os.environ['ALI_SITE_ID']),
-              type='directory',
-              content=[target_directory]
-          )
+          request = PurgeCachesRequest()
+          request.site_id = int(os.environ['ALI_SITE_ID'])
+          request.type = 'directory'
+          request.content = [target_directory]
 
           try:
               response = client.purge_caches(request)
-              print("Aliyun ESA Success:", response.body)
+              print("Aliyun ESA Request Sent. ID:", response.body.request_id)
           except Exception as error:
               print(f"Aliyun ESA Failed: {error}")

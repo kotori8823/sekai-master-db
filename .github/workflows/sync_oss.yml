@@ -1,26 +1,26 @@
-name: Sync to Backblaze B2
+name: Sync & Purge Directories
 
-# 触发机制：只要 master 或 main 分支有 push 动作（包括你服务器自动 push 的）就立即执行
 on:
   push:
     branches: [ "master", "main" ]
-  workflow_dispatch: # 保留一个手动按钮，以防万一
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  deploy-and-purge:
     runs-on: ubuntu-latest
     steps:
-      # 1. 下载仓库代码
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1 # 只需要最新代码，加快速度
+          fetch-depth: 1
 
-      # 2. 安装 B2 官方命令行工具
+      - name: Cleanup Git Files
+        run: rm -rf .git .github
       - name: Install B2 CLI
         run: pip install b2
-
-      # 3. 执行同步
+      # ========================================================
+      # 阶段 1: 存储桶同步 (Storage Sync)
+      # ========================================================
       - name: Sync Files to B2
         env:
           B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
@@ -31,3 +31,147 @@ jobs:
           b2 account authorize $B2_KEY_ID $B2_APP_KEY > /dev/null
           rm -rf .git .github
           b2 sync --threads 10 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
+      - name: Sync to R2
+        uses: jakejarvis/rclone-sync-action@master
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_ACL: public
+        with:
+          args: sync . r2:${{ secrets.R2_BUCKET_NAME }}/pjsk/sekai-db/jp
+
+      - name: Install COSCMD
+        run: pip install coscmd
+
+      - name: Sync to Tencent OSS
+        env:
+          SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          BUCKET: ${{ secrets.OSS_BUCKET }}
+          REGION: ${{ secrets.OSS_REGION }}
+        run: |
+          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+          # 上传并清理远端多余文件
+          coscmd upload -r . pjsk/sekai-db/jp/ --delete --ignore "*.py"
+
+      # ========================================================
+      # 阶段 2: CDN 缓存清理 (Directory Purge)
+      # ========================================================
+      
+      - name: Install Python Deps
+        run: pip install alibabacloud_esa20240910 requests
+
+      - name: Purge Cloudflare Prefix
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        shell: python
+        run: |
+          import os, requests, json
+          bucket_name = os.environ["B2_BUCKET_NAME"]
+
+          targets = [
+            "https://cdn.8823.eu.org/file/{bucket_name}/pjsk/sekai-db/jp/"
+          ]
+
+          zone_id = os.environ["CF_ZONE_ID"]
+          token = os.environ["CF_API_TOKEN"]
+          url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/purge_cache"
+          
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json"
+          }
+          
+          payload = { "prefixes": targets }
+          
+          try:
+              resp = requests.post(url, headers=headers, json=payload)
+              print(f"Status: {resp.status_code}")
+              print(resp.text)
+          except Exception as e:
+              print(f"Error: {e}")
+
+      # - name: Purge Tencent EdgeOne Prefix
+        # env:
+          # TENCENTCLOUD_EO_SECRET_ID: ${{ secrets.RESONACN_TENCENT_SECRET_ID }}
+          # TENCENTCLOUD_EO_SECRET_KEY: ${{ secrets.RESONACN_TENCENT_SECRET_KEY }}
+          # TEO_ZONE_ID: ${{ secrets.TEO_ZONE_ID }}
+        # shell: python
+        # run: |
+          # import os, hashlib, hmac, json, time
+          # from datetime import datetime
+          # try: from http.client import HTTPSConnection
+          # except ImportError: from httplib import HTTPSConnection
+
+          # targets = [
+             # "https://cdn.resona.cn/sekai-db/jp/"
+          # ]
+
+          # secret_id = os.environ.get("TENCENTCLOUD_EO_SECRET_ID")
+          # secret_key = os.environ.get("TENCENTCLOUD_EO_SECRET_KEY")
+          # zone_id = os.environ.get("TEO_ZONE_ID")
+          # host = "teo.tencentcloudapi.com"
+          # timestamp = int(time.time())
+          # date = datetime.utcfromtimestamp(timestamp).strftime("%Y-%m-%d")
+
+          # payload = json.dumps({
+              # "ZoneId": zone_id,
+              # "Type": "purge_prefix", 
+              # "Method": "delete",
+              # "Targets": targets
+          # })
+
+          # def sign(key, msg): return hmac.new(key, msg.encode("utf-8"), hashlib.sha256).digest()
+          # canonical_headers = "content-type:application/json; charset=utf-8\nhost:%s\nx-tc-action:createpurgetask\n" % host
+          # hashed_payload = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+          # canonical_req = "POST\n/\n\n" + canonical_headers + "content-type;host;x-tc-action\n" + hashed_payload
+          # cred_scope = date + "/teo/tc3_request"
+          # string_to_sign = "TC3-HMAC-SHA256\n" + str(timestamp) + "\n" + cred_scope + "\n" + hashlib.sha256(canonical_req.encode("utf-8")).hexdigest()
+          # secret_date = sign(("TC3" + secret_key).encode("utf-8"), date)
+          # signature = hmac.new(sign(sign(secret_date, "teo"), "tc3_request"), string_to_sign.encode("utf-8"), hashlib.sha256).hexdigest()
+          # auth = "TC3-HMAC-SHA256 Credential=%s/%s, SignedHeaders=content-type;host;x-tc-action, Signature=%s" % (secret_id, cred_scope, signature)
+
+          # print(f"Purging EdgeOne Prefixes: {targets}")
+          # conn = HTTPSConnection(host)
+          # conn.request("POST", "/", headers={"Authorization": auth, "Content-Type": "application/json; charset=utf-8", "Host": host, "X-TC-Action": "CreatePurgeTask", "X-TC-Timestamp": str(timestamp), "X-TC-Version": "2022-09-01"}, body=payload)
+          # print(conn.getresponse().read().decode('utf-8'))
+
+      - name: Purge Aliyun ESA Directory
+        env:
+          ALI_ID: ${{ secrets.ALI_ID }}
+          ALI_SECRET: ${{ secrets.ALI_SECRET }}
+          ALI_SITE_ID: ${{ secrets.ALI_SITE_ID }}
+          ALI_DOMAIN: ${{ secrets.ALI_DOMAIN }}
+        shell: python
+        run: |
+          import os
+          from alibabacloud_esa20240910.client import Client
+          from alibabacloud_esa20240910.models import PurgeCachesRequest, Config
+
+          domain = os.environ['ALI_DOMAIN']
+          target_directory = f"https://{domain}/sekai-db/jp/"
+
+          config = Config(
+              access_key_id=os.environ['ALI_ID'],
+              access_key_secret=os.environ['ALI_SECRET'],
+              endpoint='esa.cn-hangzhou.aliyuncs.com'
+          )
+          client = Client(config)
+
+          print(f"Purging Aliyun ESA Directory: {target_directory}")
+          
+          request = PurgeCachesRequest(
+              site_id=int(os.environ['ALI_SITE_ID']),
+              type='directory',
+              content=[target_directory]
+          )
+
+          try:
+              response = client.purge_caches(request)
+              print("Aliyun ESA Success:", response.body)
+          except Exception as error:
+              print(f"Aliyun ESA Failed: {error}")

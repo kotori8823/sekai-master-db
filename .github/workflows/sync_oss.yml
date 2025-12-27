@@ -77,9 +77,7 @@ jobs:
       # ========================================================
       # 阶段 2: CDN 缓存清理 (Directory Purge)
       # ========================================================
-      
-      - name: Install Python Deps
-        run: pip install alibabacloud_esa20240910 requests
+     
 
       - name: Purge Cloudflare Prefix
         env:
@@ -165,14 +163,43 @@ jobs:
           ALI_SITE_ID: ${{ secrets.ALI_SITE_ID }}
           ALI_DOMAIN: ${{ secrets.ALI_DOMAIN }}
         run: |
-          curl -L -o aliyun.tgz https://github.com/aliyun/aliyun-cli/releases/download/v3.0.216/aliyun-cli-linux-3.0.216-amd64.tgz
-          tar -zxf aliyun.tgz
-          sudo mv aliyun /usr/local/bin/
-          aliyun configure set --profile default --mode AK --region cn-hangzhou --access-key-id "$ALI_ID" --access-key-secret "$ALI_SECRET"
+          pip install alibabacloud_esa20240910==2.34.0 alibabacloud_tea_openapi alibabacloud_tea_util
 
+          python -c "
+          import os
+          import sys
+          from alibabacloud_esa20240910.client import Client as EsaClient
+          from alibabacloud_esa20240910 import models as esa_models
+          from alibabacloud_tea_openapi import models as open_api_models
+          from alibabacloud_tea_util import models as util_models
 
-          TARGET_URL="https://${ALI_DOMAIN}/sekai-db/jp/"
-          
-          echo "Executing Purge for: $TARGET_URL"
+          try:
+              config = open_api_models.Config(
+                  access_key_id=os.environ['ALI_ID'],
+                  access_key_secret=os.environ['ALI_SECRET']
+              )
+              config.endpoint = 'esa.cn-hangzhou.aliyuncs.com'
+              client = EsaClient(config)
 
-          aliyun esa PurgeCaches --SiteId $ALI_SITE_ID --Type directory --Content "[\"$TARGET_URL\"]"
+              domain = os.environ['ALI_DOMAIN']
+              target_url = f'https://{domain}/sekai-db/jp/'
+              print(f'Target URL: {target_url}')
+
+              request = esa_models.PurgeCachesRequest(
+                  site_id=int(os.environ['ALI_SITE_ID']),
+                  type='directory',
+                  content=[target_url]
+              )
+
+              runtime = util_models.RuntimeOptions()
+              resp = client.purge_caches_with_options(request, runtime)
+              
+              print('Aliyun ESA Purge Success!')
+              print(f'RequestId: {resp.body.request_id}')
+
+          except Exception as error:
+              print(f'Aliyun ESA Failed: {error}')
+              if hasattr(error, 'message'):
+                  print(error.message)
+              sys.exit(1)
+          "

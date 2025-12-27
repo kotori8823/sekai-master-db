@@ -54,8 +54,12 @@ jobs:
           RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
         run: |
-          rclone sync . r2:${{ secrets.R2_BUCKET_NAME }}/pjsk/sekai-db/jp --verbose --exclude ".git/**" --exclude ".github/**"
-
+          rclone sync . r2:${{ secrets.R2_BUCKET_NAME }}/pjsk/sekai-db/jp \
+            --verbose \
+            --transfers 32 \
+            --checkers 64 \
+            --exclude ".git/**" \
+            --exclude ".github/**"
       - name: Install COSCMD
         run: pip install coscmd
 
@@ -164,8 +168,8 @@ jobs:
         run: |
           import os
           from alibabacloud_esa20240910.client import Client
-          from alibabacloud_esa20240910.models import PurgeCachesRequest, Config
-
+          from alibabacloud_esa20240910.models import PurgeCachesRequest
+          from alibabacloud_tea_openapi.models import Config
           domain = os.environ['ALI_DOMAIN']
           target_directory = f"https://{domain}/sekai-db/jp/"
 

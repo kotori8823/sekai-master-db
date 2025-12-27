@@ -16,22 +16,9 @@ jobs:
 
       - name: Cleanup Git Files
         run: rm -rf .git .github
-      - name: Install B2 CLI
-        run: pip install b2
       # ========================================================
       # 阶段 1: 存储桶同步 (Storage Sync)
-      # ========================================================
-      - name: Sync Files to B2
-        env:
-          B2_KEY_ID: ${{ secrets.B2_KEY_ID }}
-          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
-          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
-        run: |
-          # 登录 B2
-          b2 account authorize $B2_KEY_ID $B2_APP_KEY > /dev/null
-          rm -rf .git .github
-          b2 sync --threads 50 . b2://$B2_BUCKET_NAME/pjsk/sekai-db/jp
-          
+      # ========================================================      
       - name: Install Rclone
         run: |
           curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
@@ -45,7 +32,17 @@ jobs:
           
           rm -rf rclone-*-linux-amd64* rclone-current-linux-amd64.zip
           rclone version
-        
+          
+      - name: Sync to Backblaze B2
+        env:
+          RCLONE_CONFIG_B2_TYPE: b2
+          RCLONE_CONFIG_B2_ACCOUNT: ${{ secrets.B2_KEY_ID }}
+          RCLONE_CONFIG_B2_KEY: ${{ secrets.B2_APP_KEY }}
+        run: |
+          rclone sync . b2:${{ secrets.B2_BUCKET_NAME }}/pjsk/sekai-db/jp \
+            --verbose --transfers 32 --checkers 64 \
+            --exclude ".git/**" --exclude ".github/**"
+            
       - name: Sync to R2
         env:
           RCLONE_CONFIG_R2_TYPE: s3
@@ -60,6 +57,7 @@ jobs:
             --checkers 64 \
             --exclude ".git/**" \
             --exclude ".github/**"
+
       - name: Sync to Tencent OSS
         env:
           RCLONE_CONFIG_TENCENT_TYPE: s3

@@ -60,9 +60,6 @@ jobs:
             --checkers 64 \
             --exclude ".git/**" \
             --exclude ".github/**"
-      - name: Install COSCMD
-        run: pip install coscmd
-
       - name: Sync to Tencent OSS
         env:
           RCLONE_CONFIG_TENCENT_TYPE: s3

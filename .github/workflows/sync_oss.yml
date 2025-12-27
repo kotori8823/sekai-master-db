@@ -164,31 +164,15 @@ jobs:
           ALI_SECRET: ${{ secrets.ALI_SECRET }}
           ALI_SITE_ID: ${{ secrets.ALI_SITE_ID }}
           ALI_DOMAIN: ${{ secrets.ALI_DOMAIN }}
-        shell: python
         run: |
-          import os
-          from alibabacloud_esa20240910.client import Client
-          from alibabacloud_esa20240910.models import PurgeCachesRequest
-          from alibabacloud_tea_openapi.models import Config
+          curl -L -o aliyun.tgz https://github.com/aliyun/aliyun-cli/releases/download/v3.0.216/aliyun-cli-linux-3.0.216-amd64.tgz
+          tar -zxf aliyun.tgz
+          sudo mv aliyun /usr/local/bin/
+          aliyun configure set --profile default --mode AK --region cn-hangzhou --access-key-id "$ALI_ID" --access-key-secret "$ALI_SECRET"
 
-          domain = os.environ['ALI_DOMAIN']
-          target_directory = f"https://{domain}/sekai-db/jp/" 
-          config = Config(
-              access_key_id=os.environ['ALI_ID'],
-              access_key_secret=os.environ['ALI_SECRET'],
-              endpoint='esa.cn-hangzhou.aliyuncs.com'
-          )
-          client = Client(config)
 
-          print(f"Purging Aliyun ESA Directory: {target_directory}")
+          TARGET_URL="https://${ALI_DOMAIN}/sekai-db/jp/"
           
-          request = PurgeCachesRequest()
-          request.site_id = int(os.environ['ALI_SITE_ID'])
-          request.type = 'directory'
-          request.content = [target_directory]
+          echo "Executing Purge for: $TARGET_URL"
 
-          try:
-              response = client.purge_caches(request)
-              print("Aliyun ESA Request Sent. ID:", response.body.request_id)
-          except Exception as error:
-              print(f"Aliyun ESA Failed: {error}")
+          aliyun esa PurgeCaches --SiteId $ALI_SITE_ID --Type directory --Content "[\"$TARGET_URL\"]"

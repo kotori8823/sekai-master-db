@@ -364029,6 +364029,12 @@
         "virtualLiveType": "normal",
         "virtualLiveId": 428,
         "resourceBoxId": 723
+      },
+      {
+        "id": 799,
+        "virtualLiveType": "paid",
+        "virtualLiveId": 428,
+        "resourceBoxId": 757
       }
     ],
     "virtualLiveCheerPointRewards": [],
@@ -367082,6 +367088,12 @@
         "virtualLiveType": "normal",
         "virtualLiveId": 431,
         "resourceBoxId": 731
+      },
+      {
+        "id": 800,
+        "virtualLiveType": "paid",
+        "virtualLiveId": 431,
+        "resourceBoxId": 758
       }
     ],
     "virtualLiveCheerPointRewards": [],
@@ -379131,6 +379143,4711 @@
         "effectExpressionType": "throw_effect",
         "virtualItemLabelType": "special",
         "gameCharacterUnitId": 23
+      },
+      {
+        "id": 1,
+        "virtualItemCategory": "normal",
+        "seq": 10,
+        "priority": 10,
+        "name": "紙吹雪",
+        "assetbundleName": "cracker_001",
+        "costVirtualCoin": 30,
+        "costJewel": 10,
+        "effectAssetbundleName": "cracker_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 2,
+        "virtualItemCategory": "normal",
+        "seq": 20,
+        "priority": 20,
+        "name": "風船",
+        "assetbundleName": "baloon_001",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "baloon_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 4,
+        "virtualItemCategory": "normal",
+        "seq": 40,
+        "priority": 40,
+        "name": "ハート",
+        "assetbundleName": "heart_001",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "heart_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 5,
+        "virtualItemCategory": "spread",
+        "seq": 150,
+        "priority": 50,
+        "name": "レーザー",
+        "assetbundleName": "leser_all_001",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "leser_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 6,
+        "virtualItemCategory": "spread",
+        "seq": 170,
+        "priority": 60,
+        "name": "セカイの想い",
+        "assetbundleName": "sekai_all_001",
+        "costVirtualCoin": 3000,
+        "costJewel": 1000,
+        "effectAssetbundleName": "sekai_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 8,
+        "virtualItemCategory": "spread",
+        "seq": 160,
+        "priority": 80,
+        "name": "雪",
+        "assetbundleName": "snow_all_001",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "snow_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 9,
+        "virtualItemCategory": "spread",
+        "seq": 110,
+        "priority": 100,
+        "name": "三つ葉のクローバー",
+        "assetbundleName": "unit_clover_morejump",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_clover_morejump",
+        "effectExpressionType": "throw_effect",
+        "unit": "idol"
+      },
+      {
+        "id": 10,
+        "virtualItemCategory": "spread",
+        "seq": 140,
+        "priority": 130,
+        "name": "割れたココロ",
+        "assetbundleName": "unit_heart_25night",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_heart_25night",
+        "effectExpressionType": "throw_effect",
+        "unit": "school_refusal"
+      },
+      {
+        "id": 11,
+        "virtualItemCategory": "spread",
+        "seq": 130,
+        "priority": 120,
+        "name": "ショウの王冠",
+        "assetbundleName": "unit_king_wonder",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_king_wonder",
+        "effectExpressionType": "throw_effect",
+        "unit": "theme_park"
+      },
+      {
+        "id": 12,
+        "virtualItemCategory": "spread",
+        "seq": 90,
+        "priority": 140,
+        "name": "6人の音色",
+        "assetbundleName": "unit_sing_piapro",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_sing_piapro",
+        "effectExpressionType": "throw_effect",
+        "unit": "piapro"
+      },
+      {
+        "id": 13,
+        "virtualItemCategory": "spread",
+        "seq": 100,
+        "priority": 90,
+        "name": "しし座流星群",
+        "assetbundleName": "unit_star_leoneed",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_star_leoneed",
+        "effectExpressionType": "throw_effect",
+        "unit": "light_sound"
+      },
+      {
+        "id": 14,
+        "virtualItemCategory": "spread",
+        "seq": 120,
+        "priority": 110,
+        "name": "レコードの落書き",
+        "assetbundleName": "unit_record_vivibad",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_record_vivibad",
+        "effectExpressionType": "throw_effect",
+        "unit": "street"
+      },
+      {
+        "id": 15,
+        "virtualItemCategory": "normal",
+        "seq": 30,
+        "priority": 150,
+        "name": "打ち上げ花火",
+        "assetbundleName": "fireworks_rocket",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "fireworks_rocket",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 18,
+        "virtualItemCategory": "normal",
+        "seq": 50,
+        "priority": 180,
+        "name": "尊いうちわ",
+        "assetbundleName": "uchiwa",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "uchiwa",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 19,
+        "virtualItemCategory": "normal",
+        "seq": 250,
+        "priority": 190,
+        "name": "鳴り響くギター",
+        "assetbundleName": "chara_ichika",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ichika",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 1
+      },
+      {
+        "id": 20,
+        "virtualItemCategory": "normal",
+        "seq": 260,
+        "priority": 200,
+        "name": "元気な笑顔",
+        "assetbundleName": "chara_saki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_saki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 2
+      },
+      {
+        "id": 21,
+        "virtualItemCategory": "normal",
+        "seq": 270,
+        "priority": 210,
+        "name": "絶品アップルパイ",
+        "assetbundleName": "chara_honami",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_honami",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 3
+      },
+      {
+        "id": 22,
+        "virtualItemCategory": "normal",
+        "seq": 280,
+        "priority": 220,
+        "name": "あつあつラーメン",
+        "assetbundleName": "chara_shiho",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shiho",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 23,
+        "virtualItemCategory": "normal",
+        "seq": 290,
+        "priority": 230,
+        "name": "みのりんコール",
+        "assetbundleName": "chara_minori",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_minori",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 5
+      },
+      {
+        "id": 24,
+        "virtualItemCategory": "normal",
+        "seq": 300,
+        "priority": 240,
+        "name": "応援ペンギン",
+        "assetbundleName": "chara_haruka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_haruka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 6
+      },
+      {
+        "id": 25,
+        "virtualItemCategory": "normal",
+        "seq": 310,
+        "priority": 250,
+        "name": "ハートピーチ",
+        "assetbundleName": "chara_airi",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_airi",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 7
+      },
+      {
+        "id": 26,
+        "virtualItemCategory": "normal",
+        "seq": 320,
+        "priority": 260,
+        "name": "なごみの声",
+        "assetbundleName": "chara_shizuku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shizuku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 8
+      },
+      {
+        "id": 27,
+        "virtualItemCategory": "normal",
+        "seq": 330,
+        "priority": 270,
+        "name": "ハムラップ",
+        "assetbundleName": "chara_kohane",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kohane",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 9
+      },
+      {
+        "id": 28,
+        "virtualItemCategory": "normal",
+        "seq": 340,
+        "priority": 280,
+        "name": "コーヒーアート",
+        "assetbundleName": "chara_an",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_an",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 10
+      },
+      {
+        "id": 29,
+        "virtualItemCategory": "normal",
+        "seq": 350,
+        "priority": 290,
+        "name": "リバーシブル",
+        "assetbundleName": "chara_akito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_akito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 11
+      },
+      {
+        "id": 30,
+        "virtualItemCategory": "normal",
+        "seq": 360,
+        "priority": 300,
+        "name": "山積みの蔵書",
+        "assetbundleName": "chara_toya",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_toya",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 12
+      },
+      {
+        "id": 31,
+        "virtualItemCategory": "normal",
+        "seq": 370,
+        "priority": 310,
+        "name": "ショー☆スター",
+        "assetbundleName": "chara_tukasa",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_tukasa",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 13
+      },
+      {
+        "id": 32,
+        "virtualItemCategory": "normal",
+        "seq": 380,
+        "priority": 320,
+        "name": "一緒にわんだほーい",
+        "assetbundleName": "chara_emu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_emu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 14
+      },
+      {
+        "id": 33,
+        "virtualItemCategory": "normal",
+        "seq": 390,
+        "priority": 330,
+        "name": "ネネロボ発進！",
+        "assetbundleName": "chara_nene",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_nene",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 15
+      },
+      {
+        "id": 34,
+        "virtualItemCategory": "normal",
+        "seq": 400,
+        "priority": 340,
+        "name": "ドローンマジック",
+        "assetbundleName": "chara_rui",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rui",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 16
+      },
+      {
+        "id": 35,
+        "virtualItemCategory": "normal",
+        "seq": 410,
+        "priority": 350,
+        "name": "即席カップ麵",
+        "assetbundleName": "chara_kanade",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kanade",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 17
+      },
+      {
+        "id": 36,
+        "virtualItemCategory": "normal",
+        "seq": 420,
+        "priority": 360,
+        "name": "消えたい気持ち",
+        "assetbundleName": "chara_mafuyu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mafuyu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 18
+      },
+      {
+        "id": 37,
+        "virtualItemCategory": "normal",
+        "seq": 430,
+        "priority": 370,
+        "name": "いいねマーク",
+        "assetbundleName": "chara_ena",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ena",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 19
+      },
+      {
+        "id": 38,
+        "virtualItemCategory": "normal",
+        "seq": 440,
+        "priority": 380,
+        "name": "可愛いリボン",
+        "assetbundleName": "chara_mizuki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mizuki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 20
+      },
+      {
+        "id": 39,
+        "virtualItemCategory": "normal",
+        "seq": 150,
+        "priority": 390,
+        "name": "ネギステッキ",
+        "assetbundleName": "chara_miku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_miku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 21
+      },
+      {
+        "id": 40,
+        "virtualItemCategory": "normal",
+        "seq": 160,
+        "priority": 400,
+        "name": "はじけるミカン",
+        "assetbundleName": "chara_rin",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rin",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 22
+      },
+      {
+        "id": 41,
+        "virtualItemCategory": "normal",
+        "seq": 170,
+        "priority": 410,
+        "name": "おやつのバナナ",
+        "assetbundleName": "chara_len",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_len",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 23
+      },
+      {
+        "id": 42,
+        "virtualItemCategory": "normal",
+        "seq": 180,
+        "priority": 420,
+        "name": "オオマさん",
+        "assetbundleName": "chara_luka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_luka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 24
+      },
+      {
+        "id": 43,
+        "virtualItemCategory": "normal",
+        "seq": 190,
+        "priority": 430,
+        "name": "乾杯ワイン",
+        "assetbundleName": "chara_meiko",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_meiko",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 25
+      },
+      {
+        "id": 44,
+        "virtualItemCategory": "normal",
+        "seq": 200,
+        "priority": 440,
+        "name": "アイスバー",
+        "assetbundleName": "chara_kaito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kaito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 26
+      }
+    ],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 444,
+    "virtualLiveType": "normal",
+    "virtualLivePlatform": "v2",
+    "seq": 100,
+    "name": "ハッピーニューイヤー2026ライブ前編",
+    "assetbundleName": "vlentrance_00444",
+    "screenMvMusicVocalId": 1507,
+    "startAt": 1767160800000,
+    "endAt": 1767506399000,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2227,
+        "virtualLiveId": 444,
+        "seq": 1,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_1",
+        "virtualLiveStageId": 1
+      },
+      {
+        "id": 2228,
+        "virtualLiveId": 444,
+        "seq": 2,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0368_001",
+        "virtualLiveStageId": 20,
+        "musicId": 368,
+        "musicVocalId": 900,
+        "character3dId1": 2209,
+        "character3dId2": 2207,
+        "character3dId3": 2208,
+        "character3dId4": 2210,
+        "character3dId5": 2211,
+        "character3dId6": 2206
+      },
+      {
+        "id": 2229,
+        "virtualLiveId": 444,
+        "seq": 3,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_2",
+        "virtualLiveStageId": 20,
+        "musicId": 368,
+        "musicVocalId": 900
+      },
+      {
+        "id": 2230,
+        "virtualLiveId": 444,
+        "seq": 4,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_3",
+        "virtualLiveStageId": 3
+      },
+      {
+        "id": 2231,
+        "virtualLiveId": 444,
+        "seq": 5,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0182_002",
+        "virtualLiveStageId": 10,
+        "musicId": 182,
+        "musicVocalId": 533,
+        "character3dId1": 2212,
+        "character3dId2": 2215,
+        "character3dId3": 2213,
+        "character3dId4": 2214,
+        "character3dId5": 2216
+      },
+      {
+        "id": 2232,
+        "virtualLiveId": 444,
+        "seq": 6,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0282_001",
+        "virtualLiveStageId": 17,
+        "musicId": 282,
+        "musicVocalId": 706,
+        "character3dId1": 2218,
+        "character3dId2": 2221,
+        "character3dId3": 2217,
+        "character3dId4": 2220,
+        "character3dId5": 2219
+      },
+      {
+        "id": 2233,
+        "virtualLiveId": 444,
+        "seq": 7,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_4",
+        "virtualLiveStageId": 17,
+        "musicId": 282,
+        "musicVocalId": 706
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [
+      {
+        "id": 6540,
+        "virtualLiveId": 444,
+        "seq": 1,
+        "startAt": 1767192791000,
+        "endAt": 1767193815000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6541,
+        "virtualLiveId": 444,
+        "seq": 2,
+        "startAt": 1767196800000,
+        "endAt": 1767197824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6542,
+        "virtualLiveId": 444,
+        "seq": 3,
+        "startAt": 1767200400000,
+        "endAt": 1767201424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6543,
+        "virtualLiveId": 444,
+        "seq": 4,
+        "startAt": 1767204000000,
+        "endAt": 1767205024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6544,
+        "virtualLiveId": 444,
+        "seq": 5,
+        "startAt": 1767207600000,
+        "endAt": 1767208624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6545,
+        "virtualLiveId": 444,
+        "seq": 6,
+        "startAt": 1767211200000,
+        "endAt": 1767212224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6546,
+        "virtualLiveId": 444,
+        "seq": 7,
+        "startAt": 1767214800000,
+        "endAt": 1767215824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6547,
+        "virtualLiveId": 444,
+        "seq": 8,
+        "startAt": 1767218400000,
+        "endAt": 1767219424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6548,
+        "virtualLiveId": 444,
+        "seq": 9,
+        "startAt": 1767222000000,
+        "endAt": 1767223024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6549,
+        "virtualLiveId": 444,
+        "seq": 10,
+        "startAt": 1767225600000,
+        "endAt": 1767226624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6550,
+        "virtualLiveId": 444,
+        "seq": 11,
+        "startAt": 1767229200000,
+        "endAt": 1767230224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6551,
+        "virtualLiveId": 444,
+        "seq": 12,
+        "startAt": 1767232800000,
+        "endAt": 1767233824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6552,
+        "virtualLiveId": 444,
+        "seq": 13,
+        "startAt": 1767236400000,
+        "endAt": 1767237424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6553,
+        "virtualLiveId": 444,
+        "seq": 14,
+        "startAt": 1767240000000,
+        "endAt": 1767241024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6554,
+        "virtualLiveId": 444,
+        "seq": 15,
+        "startAt": 1767243600000,
+        "endAt": 1767244624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6555,
+        "virtualLiveId": 444,
+        "seq": 16,
+        "startAt": 1767247200000,
+        "endAt": 1767248224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6556,
+        "virtualLiveId": 444,
+        "seq": 17,
+        "startAt": 1767250800000,
+        "endAt": 1767251824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6557,
+        "virtualLiveId": 444,
+        "seq": 18,
+        "startAt": 1767254400000,
+        "endAt": 1767255424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6558,
+        "virtualLiveId": 444,
+        "seq": 19,
+        "startAt": 1767258000000,
+        "endAt": 1767259024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6559,
+        "virtualLiveId": 444,
+        "seq": 20,
+        "startAt": 1767261600000,
+        "endAt": 1767262624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6560,
+        "virtualLiveId": 444,
+        "seq": 21,
+        "startAt": 1767265200000,
+        "endAt": 1767266224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6561,
+        "virtualLiveId": 444,
+        "seq": 22,
+        "startAt": 1767268800000,
+        "endAt": 1767269824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6562,
+        "virtualLiveId": 444,
+        "seq": 23,
+        "startAt": 1767272400000,
+        "endAt": 1767273424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6563,
+        "virtualLiveId": 444,
+        "seq": 24,
+        "startAt": 1767276000000,
+        "endAt": 1767277024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6564,
+        "virtualLiveId": 444,
+        "seq": 25,
+        "startAt": 1767279600000,
+        "endAt": 1767280624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6565,
+        "virtualLiveId": 444,
+        "seq": 26,
+        "startAt": 1767283200000,
+        "endAt": 1767284224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6566,
+        "virtualLiveId": 444,
+        "seq": 27,
+        "startAt": 1767286800000,
+        "endAt": 1767287824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6567,
+        "virtualLiveId": 444,
+        "seq": 28,
+        "startAt": 1767290400000,
+        "endAt": 1767291424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6568,
+        "virtualLiveId": 444,
+        "seq": 29,
+        "startAt": 1767294000000,
+        "endAt": 1767295024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6569,
+        "virtualLiveId": 444,
+        "seq": 30,
+        "startAt": 1767297600000,
+        "endAt": 1767298624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6570,
+        "virtualLiveId": 444,
+        "seq": 31,
+        "startAt": 1767301200000,
+        "endAt": 1767302224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6571,
+        "virtualLiveId": 444,
+        "seq": 32,
+        "startAt": 1767304800000,
+        "endAt": 1767305824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6572,
+        "virtualLiveId": 444,
+        "seq": 33,
+        "startAt": 1767308400000,
+        "endAt": 1767309424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6573,
+        "virtualLiveId": 444,
+        "seq": 34,
+        "startAt": 1767312000000,
+        "endAt": 1767313024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6574,
+        "virtualLiveId": 444,
+        "seq": 35,
+        "startAt": 1767315600000,
+        "endAt": 1767316624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6575,
+        "virtualLiveId": 444,
+        "seq": 36,
+        "startAt": 1767319200000,
+        "endAt": 1767320224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6576,
+        "virtualLiveId": 444,
+        "seq": 37,
+        "startAt": 1767322800000,
+        "endAt": 1767323824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6577,
+        "virtualLiveId": 444,
+        "seq": 38,
+        "startAt": 1767326400000,
+        "endAt": 1767327424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6578,
+        "virtualLiveId": 444,
+        "seq": 39,
+        "startAt": 1767330000000,
+        "endAt": 1767331024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6579,
+        "virtualLiveId": 444,
+        "seq": 40,
+        "startAt": 1767333600000,
+        "endAt": 1767334624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6580,
+        "virtualLiveId": 444,
+        "seq": 41,
+        "startAt": 1767337200000,
+        "endAt": 1767338224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6581,
+        "virtualLiveId": 444,
+        "seq": 42,
+        "startAt": 1767340800000,
+        "endAt": 1767341824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6582,
+        "virtualLiveId": 444,
+        "seq": 43,
+        "startAt": 1767344400000,
+        "endAt": 1767345424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6583,
+        "virtualLiveId": 444,
+        "seq": 44,
+        "startAt": 1767348000000,
+        "endAt": 1767349024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6584,
+        "virtualLiveId": 444,
+        "seq": 45,
+        "startAt": 1767351600000,
+        "endAt": 1767352624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6585,
+        "virtualLiveId": 444,
+        "seq": 46,
+        "startAt": 1767355200000,
+        "endAt": 1767356224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6586,
+        "virtualLiveId": 444,
+        "seq": 47,
+        "startAt": 1767358800000,
+        "endAt": 1767359824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6587,
+        "virtualLiveId": 444,
+        "seq": 48,
+        "startAt": 1767362400000,
+        "endAt": 1767363424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6588,
+        "virtualLiveId": 444,
+        "seq": 49,
+        "startAt": 1767366000000,
+        "endAt": 1767367024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6589,
+        "virtualLiveId": 444,
+        "seq": 50,
+        "startAt": 1767369600000,
+        "endAt": 1767370624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6590,
+        "virtualLiveId": 444,
+        "seq": 51,
+        "startAt": 1767373200000,
+        "endAt": 1767374224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6591,
+        "virtualLiveId": 444,
+        "seq": 52,
+        "startAt": 1767376800000,
+        "endAt": 1767377824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6592,
+        "virtualLiveId": 444,
+        "seq": 53,
+        "startAt": 1767380400000,
+        "endAt": 1767381424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6593,
+        "virtualLiveId": 444,
+        "seq": 54,
+        "startAt": 1767384000000,
+        "endAt": 1767385024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6594,
+        "virtualLiveId": 444,
+        "seq": 55,
+        "startAt": 1767387600000,
+        "endAt": 1767388624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6595,
+        "virtualLiveId": 444,
+        "seq": 56,
+        "startAt": 1767391200000,
+        "endAt": 1767392224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6596,
+        "virtualLiveId": 444,
+        "seq": 57,
+        "startAt": 1767394800000,
+        "endAt": 1767395824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6597,
+        "virtualLiveId": 444,
+        "seq": 58,
+        "startAt": 1767398400000,
+        "endAt": 1767399424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6598,
+        "virtualLiveId": 444,
+        "seq": 59,
+        "startAt": 1767402000000,
+        "endAt": 1767403024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6599,
+        "virtualLiveId": 444,
+        "seq": 60,
+        "startAt": 1767405600000,
+        "endAt": 1767406624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6600,
+        "virtualLiveId": 444,
+        "seq": 61,
+        "startAt": 1767409200000,
+        "endAt": 1767410224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6601,
+        "virtualLiveId": 444,
+        "seq": 62,
+        "startAt": 1767412800000,
+        "endAt": 1767413824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6602,
+        "virtualLiveId": 444,
+        "seq": 63,
+        "startAt": 1767416400000,
+        "endAt": 1767417424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6603,
+        "virtualLiveId": 444,
+        "seq": 64,
+        "startAt": 1767420000000,
+        "endAt": 1767421024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6604,
+        "virtualLiveId": 444,
+        "seq": 65,
+        "startAt": 1767423600000,
+        "endAt": 1767424624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6605,
+        "virtualLiveId": 444,
+        "seq": 66,
+        "startAt": 1767427200000,
+        "endAt": 1767428224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6606,
+        "virtualLiveId": 444,
+        "seq": 67,
+        "startAt": 1767430800000,
+        "endAt": 1767431824000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6607,
+        "virtualLiveId": 444,
+        "seq": 68,
+        "startAt": 1767434400000,
+        "endAt": 1767435424000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6608,
+        "virtualLiveId": 444,
+        "seq": 69,
+        "startAt": 1767438000000,
+        "endAt": 1767439024000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6609,
+        "virtualLiveId": 444,
+        "seq": 70,
+        "startAt": 1767441600000,
+        "endAt": 1767442624000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6610,
+        "virtualLiveId": 444,
+        "seq": 71,
+        "startAt": 1767445200000,
+        "endAt": 1767446224000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6611,
+        "virtualLiveId": 444,
+        "seq": 72,
+        "startAt": 1767448800000,
+        "endAt": 1767449824000,
+        "isAfterEvent": false
+      }
+    ],
+    "virtualLiveCharacters": [
+      {
+        "id": 3445,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 9,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3446,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 10,
+        "seq": 2,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3447,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 11,
+        "seq": 3,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3448,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 12,
+        "seq": 4,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3449,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 13,
+        "seq": 5,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3450,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 14,
+        "seq": 6,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3451,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 15,
+        "seq": 7,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3452,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 16,
+        "seq": 8,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3453,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 21,
+        "seq": 9,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3454,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 22,
+        "seq": 10,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3455,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 23,
+        "seq": 11,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3456,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 24,
+        "seq": 12,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3457,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 25,
+        "seq": 13,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3458,
+        "virtualLiveId": 444,
+        "gameCharacterUnitId": 26,
+        "seq": 14,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 795,
+        "virtualLiveType": "normal",
+        "virtualLiveId": 444,
+        "resourceBoxId": 753
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 444,
+      "virtualLiveId": 444,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1767160800000,
+      "endAt": 1767506399000
+    },
+    "virtualItems": [
+      {
+        "id": 220,
+        "virtualItemCategory": "normal",
+        "seq": 2200,
+        "priority": 2200,
+        "name": "HAPPY NEW YEAR 2026",
+        "assetbundleName": "event_new_year_2026_01",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "event_new_year_2026_01",
+        "effectExpressionType": "throw_effect",
+        "virtualItemLabelType": "special"
+      },
+      {
+        "id": 221,
+        "virtualItemCategory": "normal",
+        "seq": 2210,
+        "priority": 2210,
+        "name": "2026干支「午」",
+        "assetbundleName": "event_new_year_2026_02",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_new_year_2026_02",
+        "effectExpressionType": "throw_effect",
+        "virtualItemLabelType": "special"
+      },
+      {
+        "id": 1,
+        "virtualItemCategory": "normal",
+        "seq": 10,
+        "priority": 10,
+        "name": "紙吹雪",
+        "assetbundleName": "cracker_001",
+        "costVirtualCoin": 30,
+        "costJewel": 10,
+        "effectAssetbundleName": "cracker_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 2,
+        "virtualItemCategory": "normal",
+        "seq": 20,
+        "priority": 20,
+        "name": "風船",
+        "assetbundleName": "baloon_001",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "baloon_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 4,
+        "virtualItemCategory": "normal",
+        "seq": 40,
+        "priority": 40,
+        "name": "ハート",
+        "assetbundleName": "heart_001",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "heart_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 5,
+        "virtualItemCategory": "spread",
+        "seq": 150,
+        "priority": 50,
+        "name": "レーザー",
+        "assetbundleName": "leser_all_001",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "leser_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 6,
+        "virtualItemCategory": "spread",
+        "seq": 170,
+        "priority": 60,
+        "name": "セカイの想い",
+        "assetbundleName": "sekai_all_001",
+        "costVirtualCoin": 3000,
+        "costJewel": 1000,
+        "effectAssetbundleName": "sekai_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 8,
+        "virtualItemCategory": "spread",
+        "seq": 160,
+        "priority": 80,
+        "name": "雪",
+        "assetbundleName": "snow_all_001",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "snow_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 9,
+        "virtualItemCategory": "spread",
+        "seq": 110,
+        "priority": 100,
+        "name": "三つ葉のクローバー",
+        "assetbundleName": "unit_clover_morejump",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_clover_morejump",
+        "effectExpressionType": "throw_effect",
+        "unit": "idol"
+      },
+      {
+        "id": 10,
+        "virtualItemCategory": "spread",
+        "seq": 140,
+        "priority": 130,
+        "name": "割れたココロ",
+        "assetbundleName": "unit_heart_25night",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_heart_25night",
+        "effectExpressionType": "throw_effect",
+        "unit": "school_refusal"
+      },
+      {
+        "id": 11,
+        "virtualItemCategory": "spread",
+        "seq": 130,
+        "priority": 120,
+        "name": "ショウの王冠",
+        "assetbundleName": "unit_king_wonder",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_king_wonder",
+        "effectExpressionType": "throw_effect",
+        "unit": "theme_park"
+      },
+      {
+        "id": 12,
+        "virtualItemCategory": "spread",
+        "seq": 90,
+        "priority": 140,
+        "name": "6人の音色",
+        "assetbundleName": "unit_sing_piapro",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_sing_piapro",
+        "effectExpressionType": "throw_effect",
+        "unit": "piapro"
+      },
+      {
+        "id": 13,
+        "virtualItemCategory": "spread",
+        "seq": 100,
+        "priority": 90,
+        "name": "しし座流星群",
+        "assetbundleName": "unit_star_leoneed",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_star_leoneed",
+        "effectExpressionType": "throw_effect",
+        "unit": "light_sound"
+      },
+      {
+        "id": 14,
+        "virtualItemCategory": "spread",
+        "seq": 120,
+        "priority": 110,
+        "name": "レコードの落書き",
+        "assetbundleName": "unit_record_vivibad",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_record_vivibad",
+        "effectExpressionType": "throw_effect",
+        "unit": "street"
+      },
+      {
+        "id": 15,
+        "virtualItemCategory": "normal",
+        "seq": 30,
+        "priority": 150,
+        "name": "打ち上げ花火",
+        "assetbundleName": "fireworks_rocket",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "fireworks_rocket",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 18,
+        "virtualItemCategory": "normal",
+        "seq": 50,
+        "priority": 180,
+        "name": "尊いうちわ",
+        "assetbundleName": "uchiwa",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "uchiwa",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 19,
+        "virtualItemCategory": "normal",
+        "seq": 250,
+        "priority": 190,
+        "name": "鳴り響くギター",
+        "assetbundleName": "chara_ichika",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ichika",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 1
+      },
+      {
+        "id": 20,
+        "virtualItemCategory": "normal",
+        "seq": 260,
+        "priority": 200,
+        "name": "元気な笑顔",
+        "assetbundleName": "chara_saki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_saki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 2
+      },
+      {
+        "id": 21,
+        "virtualItemCategory": "normal",
+        "seq": 270,
+        "priority": 210,
+        "name": "絶品アップルパイ",
+        "assetbundleName": "chara_honami",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_honami",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 3
+      },
+      {
+        "id": 22,
+        "virtualItemCategory": "normal",
+        "seq": 280,
+        "priority": 220,
+        "name": "あつあつラーメン",
+        "assetbundleName": "chara_shiho",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shiho",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 23,
+        "virtualItemCategory": "normal",
+        "seq": 290,
+        "priority": 230,
+        "name": "みのりんコール",
+        "assetbundleName": "chara_minori",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_minori",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 5
+      },
+      {
+        "id": 24,
+        "virtualItemCategory": "normal",
+        "seq": 300,
+        "priority": 240,
+        "name": "応援ペンギン",
+        "assetbundleName": "chara_haruka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_haruka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 6
+      },
+      {
+        "id": 25,
+        "virtualItemCategory": "normal",
+        "seq": 310,
+        "priority": 250,
+        "name": "ハートピーチ",
+        "assetbundleName": "chara_airi",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_airi",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 7
+      },
+      {
+        "id": 26,
+        "virtualItemCategory": "normal",
+        "seq": 320,
+        "priority": 260,
+        "name": "なごみの声",
+        "assetbundleName": "chara_shizuku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shizuku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 8
+      },
+      {
+        "id": 27,
+        "virtualItemCategory": "normal",
+        "seq": 330,
+        "priority": 270,
+        "name": "ハムラップ",
+        "assetbundleName": "chara_kohane",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kohane",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 9
+      },
+      {
+        "id": 28,
+        "virtualItemCategory": "normal",
+        "seq": 340,
+        "priority": 280,
+        "name": "コーヒーアート",
+        "assetbundleName": "chara_an",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_an",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 10
+      },
+      {
+        "id": 29,
+        "virtualItemCategory": "normal",
+        "seq": 350,
+        "priority": 290,
+        "name": "リバーシブル",
+        "assetbundleName": "chara_akito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_akito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 11
+      },
+      {
+        "id": 30,
+        "virtualItemCategory": "normal",
+        "seq": 360,
+        "priority": 300,
+        "name": "山積みの蔵書",
+        "assetbundleName": "chara_toya",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_toya",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 12
+      },
+      {
+        "id": 31,
+        "virtualItemCategory": "normal",
+        "seq": 370,
+        "priority": 310,
+        "name": "ショー☆スター",
+        "assetbundleName": "chara_tukasa",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_tukasa",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 13
+      },
+      {
+        "id": 32,
+        "virtualItemCategory": "normal",
+        "seq": 380,
+        "priority": 320,
+        "name": "一緒にわんだほーい",
+        "assetbundleName": "chara_emu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_emu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 14
+      },
+      {
+        "id": 33,
+        "virtualItemCategory": "normal",
+        "seq": 390,
+        "priority": 330,
+        "name": "ネネロボ発進！",
+        "assetbundleName": "chara_nene",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_nene",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 15
+      },
+      {
+        "id": 34,
+        "virtualItemCategory": "normal",
+        "seq": 400,
+        "priority": 340,
+        "name": "ドローンマジック",
+        "assetbundleName": "chara_rui",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rui",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 16
+      },
+      {
+        "id": 35,
+        "virtualItemCategory": "normal",
+        "seq": 410,
+        "priority": 350,
+        "name": "即席カップ麵",
+        "assetbundleName": "chara_kanade",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kanade",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 17
+      },
+      {
+        "id": 36,
+        "virtualItemCategory": "normal",
+        "seq": 420,
+        "priority": 360,
+        "name": "消えたい気持ち",
+        "assetbundleName": "chara_mafuyu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mafuyu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 18
+      },
+      {
+        "id": 37,
+        "virtualItemCategory": "normal",
+        "seq": 430,
+        "priority": 370,
+        "name": "いいねマーク",
+        "assetbundleName": "chara_ena",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ena",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 19
+      },
+      {
+        "id": 38,
+        "virtualItemCategory": "normal",
+        "seq": 440,
+        "priority": 380,
+        "name": "可愛いリボン",
+        "assetbundleName": "chara_mizuki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mizuki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 20
+      },
+      {
+        "id": 39,
+        "virtualItemCategory": "normal",
+        "seq": 150,
+        "priority": 390,
+        "name": "ネギステッキ",
+        "assetbundleName": "chara_miku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_miku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 21
+      },
+      {
+        "id": 40,
+        "virtualItemCategory": "normal",
+        "seq": 160,
+        "priority": 400,
+        "name": "はじけるミカン",
+        "assetbundleName": "chara_rin",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rin",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 22
+      },
+      {
+        "id": 41,
+        "virtualItemCategory": "normal",
+        "seq": 170,
+        "priority": 410,
+        "name": "おやつのバナナ",
+        "assetbundleName": "chara_len",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_len",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 23
+      },
+      {
+        "id": 42,
+        "virtualItemCategory": "normal",
+        "seq": 180,
+        "priority": 420,
+        "name": "オオマさん",
+        "assetbundleName": "chara_luka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_luka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 24
+      },
+      {
+        "id": 43,
+        "virtualItemCategory": "normal",
+        "seq": 190,
+        "priority": 430,
+        "name": "乾杯ワイン",
+        "assetbundleName": "chara_meiko",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_meiko",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 25
+      },
+      {
+        "id": 44,
+        "virtualItemCategory": "normal",
+        "seq": 200,
+        "priority": 440,
+        "name": "アイスバー",
+        "assetbundleName": "chara_kaito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kaito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 26
+      }
+    ],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 445,
+    "virtualLiveType": "normal",
+    "virtualLivePlatform": "v2",
+    "seq": 130,
+    "name": "新年言祝ぐ、祈りの舞 アフターライブ",
+    "assetbundleName": "vlentrance_00445",
+    "screenMvMusicVocalId": 1373,
+    "startAt": 1767160800000,
+    "endAt": 1768111199000,
+    "rankingAnnounceAt": 4102412399000,
+    "archiveReleaseConditionId": 119008,
+    "virtualLiveSetlists": [
+      {
+        "id": 2243,
+        "virtualLiveId": 445,
+        "seq": 1,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0404_001",
+        "virtualLiveStageId": 18,
+        "musicId": 404,
+        "musicVocalId": 1377,
+        "character3dId1": 2245,
+        "character3dId2": 2243,
+        "character3dId3": 2242,
+        "character3dId4": 2247,
+        "character3dId5": 2244
+      },
+      {
+        "id": 2244,
+        "virtualLiveId": 445,
+        "seq": 2,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_ev_shuffle_60_1",
+        "virtualLiveStageId": 18,
+        "musicId": 404,
+        "musicVocalId": 1377
+      },
+      {
+        "id": 2245,
+        "virtualLiveId": 445,
+        "seq": 3,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0422_001",
+        "virtualLiveStageId": 21,
+        "musicId": 422,
+        "musicVocalId": 1452,
+        "character3dId1": 2248,
+        "character3dId2": 2250,
+        "character3dId3": 2252,
+        "character3dId4": 2249,
+        "character3dId5": 2251
+      },
+      {
+        "id": 2246,
+        "virtualLiveId": 445,
+        "seq": 4,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_ev_shuffle_60_2",
+        "virtualLiveStageId": 21,
+        "musicId": 422,
+        "musicVocalId": 1452
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [
+      {
+        "id": 6612,
+        "virtualLiveId": 445,
+        "seq": 1,
+        "startAt": 1767963600000,
+        "endAt": 1767964254000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6613,
+        "virtualLiveId": 445,
+        "seq": 2,
+        "startAt": 1767967200000,
+        "endAt": 1767967854000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6614,
+        "virtualLiveId": 445,
+        "seq": 3,
+        "startAt": 1767970800000,
+        "endAt": 1767971454000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6615,
+        "virtualLiveId": 445,
+        "seq": 4,
+        "startAt": 1767974400000,
+        "endAt": 1767975054000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6616,
+        "virtualLiveId": 445,
+        "seq": 5,
+        "startAt": 1767978000000,
+        "endAt": 1767978654000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6617,
+        "virtualLiveId": 445,
+        "seq": 6,
+        "startAt": 1767981600000,
+        "endAt": 1767982254000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6618,
+        "virtualLiveId": 445,
+        "seq": 7,
+        "startAt": 1767985200000,
+        "endAt": 1767985854000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6619,
+        "virtualLiveId": 445,
+        "seq": 8,
+        "startAt": 1767988800000,
+        "endAt": 1767989454000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6620,
+        "virtualLiveId": 445,
+        "seq": 9,
+        "startAt": 1767992400000,
+        "endAt": 1767993054000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6621,
+        "virtualLiveId": 445,
+        "seq": 10,
+        "startAt": 1767996000000,
+        "endAt": 1767996654000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6622,
+        "virtualLiveId": 445,
+        "seq": 11,
+        "startAt": 1767999600000,
+        "endAt": 1768000254000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6623,
+        "virtualLiveId": 445,
+        "seq": 12,
+        "startAt": 1768003200000,
+        "endAt": 1768003854000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6624,
+        "virtualLiveId": 445,
+        "seq": 13,
+        "startAt": 1768006800000,
+        "endAt": 1768007454000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6625,
+        "virtualLiveId": 445,
+        "seq": 14,
+        "startAt": 1768010400000,
+        "endAt": 1768011054000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6626,
+        "virtualLiveId": 445,
+        "seq": 15,
+        "startAt": 1768014000000,
+        "endAt": 1768014654000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6627,
+        "virtualLiveId": 445,
+        "seq": 16,
+        "startAt": 1768017600000,
+        "endAt": 1768018254000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6628,
+        "virtualLiveId": 445,
+        "seq": 17,
+        "startAt": 1768021200000,
+        "endAt": 1768021854000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6629,
+        "virtualLiveId": 445,
+        "seq": 18,
+        "startAt": 1768024800000,
+        "endAt": 1768025454000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6630,
+        "virtualLiveId": 445,
+        "seq": 19,
+        "startAt": 1768028400000,
+        "endAt": 1768029054000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6631,
+        "virtualLiveId": 445,
+        "seq": 20,
+        "startAt": 1768032000000,
+        "endAt": 1768032654000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6632,
+        "virtualLiveId": 445,
+        "seq": 21,
+        "startAt": 1768035600000,
+        "endAt": 1768036254000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6633,
+        "virtualLiveId": 445,
+        "seq": 22,
+        "startAt": 1768039200000,
+        "endAt": 1768039854000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6634,
+        "virtualLiveId": 445,
+        "seq": 23,
+        "startAt": 1768042800000,
+        "endAt": 1768043454000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6635,
+        "virtualLiveId": 445,
+        "seq": 24,
+        "startAt": 1768046400000,
+        "endAt": 1768047054000,
+        "isAfterEvent": false
+      }
+    ],
+    "virtualLiveCharacters": [
+      {
+        "id": 3459,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 5,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3460,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 6,
+        "seq": 2,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3461,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 7,
+        "seq": 3,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3462,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 8,
+        "seq": 4,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3463,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 9,
+        "seq": 5,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3464,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 10,
+        "seq": 6,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3465,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 11,
+        "seq": 7,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3466,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 12,
+        "seq": 8,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3467,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 28,
+        "seq": 9,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3468,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 22,
+        "seq": 10,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3469,
+        "virtualLiveId": 445,
+        "gameCharacterUnitId": 25,
+        "seq": 11,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 796,
+        "virtualLiveType": "normal",
+        "virtualLiveId": 445,
+        "resourceBoxId": 754
+      },
+      {
+        "id": 797,
+        "virtualLiveType": "archive",
+        "virtualLiveId": 445,
+        "resourceBoxId": 755
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 445,
+      "virtualLiveId": 445,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1767160800000,
+      "endAt": 1768111199000
+    },
+    "virtualItems": [
+      {
+        "id": 1,
+        "virtualItemCategory": "normal",
+        "seq": 10,
+        "priority": 10,
+        "name": "紙吹雪",
+        "assetbundleName": "cracker_001",
+        "costVirtualCoin": 30,
+        "costJewel": 10,
+        "effectAssetbundleName": "cracker_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 2,
+        "virtualItemCategory": "normal",
+        "seq": 20,
+        "priority": 20,
+        "name": "風船",
+        "assetbundleName": "baloon_001",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "baloon_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 4,
+        "virtualItemCategory": "normal",
+        "seq": 40,
+        "priority": 40,
+        "name": "ハート",
+        "assetbundleName": "heart_001",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "heart_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 5,
+        "virtualItemCategory": "spread",
+        "seq": 150,
+        "priority": 50,
+        "name": "レーザー",
+        "assetbundleName": "leser_all_001",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "leser_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 6,
+        "virtualItemCategory": "spread",
+        "seq": 170,
+        "priority": 60,
+        "name": "セカイの想い",
+        "assetbundleName": "sekai_all_001",
+        "costVirtualCoin": 3000,
+        "costJewel": 1000,
+        "effectAssetbundleName": "sekai_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 8,
+        "virtualItemCategory": "spread",
+        "seq": 160,
+        "priority": 80,
+        "name": "雪",
+        "assetbundleName": "snow_all_001",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "snow_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 9,
+        "virtualItemCategory": "spread",
+        "seq": 110,
+        "priority": 100,
+        "name": "三つ葉のクローバー",
+        "assetbundleName": "unit_clover_morejump",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_clover_morejump",
+        "effectExpressionType": "throw_effect",
+        "unit": "idol"
+      },
+      {
+        "id": 10,
+        "virtualItemCategory": "spread",
+        "seq": 140,
+        "priority": 130,
+        "name": "割れたココロ",
+        "assetbundleName": "unit_heart_25night",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_heart_25night",
+        "effectExpressionType": "throw_effect",
+        "unit": "school_refusal"
+      },
+      {
+        "id": 11,
+        "virtualItemCategory": "spread",
+        "seq": 130,
+        "priority": 120,
+        "name": "ショウの王冠",
+        "assetbundleName": "unit_king_wonder",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_king_wonder",
+        "effectExpressionType": "throw_effect",
+        "unit": "theme_park"
+      },
+      {
+        "id": 12,
+        "virtualItemCategory": "spread",
+        "seq": 90,
+        "priority": 140,
+        "name": "6人の音色",
+        "assetbundleName": "unit_sing_piapro",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_sing_piapro",
+        "effectExpressionType": "throw_effect",
+        "unit": "piapro"
+      },
+      {
+        "id": 13,
+        "virtualItemCategory": "spread",
+        "seq": 100,
+        "priority": 90,
+        "name": "しし座流星群",
+        "assetbundleName": "unit_star_leoneed",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_star_leoneed",
+        "effectExpressionType": "throw_effect",
+        "unit": "light_sound"
+      },
+      {
+        "id": 14,
+        "virtualItemCategory": "spread",
+        "seq": 120,
+        "priority": 110,
+        "name": "レコードの落書き",
+        "assetbundleName": "unit_record_vivibad",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_record_vivibad",
+        "effectExpressionType": "throw_effect",
+        "unit": "street"
+      },
+      {
+        "id": 15,
+        "virtualItemCategory": "normal",
+        "seq": 30,
+        "priority": 150,
+        "name": "打ち上げ花火",
+        "assetbundleName": "fireworks_rocket",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "fireworks_rocket",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 18,
+        "virtualItemCategory": "normal",
+        "seq": 50,
+        "priority": 180,
+        "name": "尊いうちわ",
+        "assetbundleName": "uchiwa",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "uchiwa",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 19,
+        "virtualItemCategory": "normal",
+        "seq": 250,
+        "priority": 190,
+        "name": "鳴り響くギター",
+        "assetbundleName": "chara_ichika",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ichika",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 1
+      },
+      {
+        "id": 20,
+        "virtualItemCategory": "normal",
+        "seq": 260,
+        "priority": 200,
+        "name": "元気な笑顔",
+        "assetbundleName": "chara_saki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_saki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 2
+      },
+      {
+        "id": 21,
+        "virtualItemCategory": "normal",
+        "seq": 270,
+        "priority": 210,
+        "name": "絶品アップルパイ",
+        "assetbundleName": "chara_honami",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_honami",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 3
+      },
+      {
+        "id": 22,
+        "virtualItemCategory": "normal",
+        "seq": 280,
+        "priority": 220,
+        "name": "あつあつラーメン",
+        "assetbundleName": "chara_shiho",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shiho",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 23,
+        "virtualItemCategory": "normal",
+        "seq": 290,
+        "priority": 230,
+        "name": "みのりんコール",
+        "assetbundleName": "chara_minori",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_minori",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 5
+      },
+      {
+        "id": 24,
+        "virtualItemCategory": "normal",
+        "seq": 300,
+        "priority": 240,
+        "name": "応援ペンギン",
+        "assetbundleName": "chara_haruka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_haruka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 6
+      },
+      {
+        "id": 25,
+        "virtualItemCategory": "normal",
+        "seq": 310,
+        "priority": 250,
+        "name": "ハートピーチ",
+        "assetbundleName": "chara_airi",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_airi",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 7
+      },
+      {
+        "id": 26,
+        "virtualItemCategory": "normal",
+        "seq": 320,
+        "priority": 260,
+        "name": "なごみの声",
+        "assetbundleName": "chara_shizuku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shizuku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 8
+      },
+      {
+        "id": 27,
+        "virtualItemCategory": "normal",
+        "seq": 330,
+        "priority": 270,
+        "name": "ハムラップ",
+        "assetbundleName": "chara_kohane",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kohane",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 9
+      },
+      {
+        "id": 28,
+        "virtualItemCategory": "normal",
+        "seq": 340,
+        "priority": 280,
+        "name": "コーヒーアート",
+        "assetbundleName": "chara_an",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_an",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 10
+      },
+      {
+        "id": 29,
+        "virtualItemCategory": "normal",
+        "seq": 350,
+        "priority": 290,
+        "name": "リバーシブル",
+        "assetbundleName": "chara_akito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_akito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 11
+      },
+      {
+        "id": 30,
+        "virtualItemCategory": "normal",
+        "seq": 360,
+        "priority": 300,
+        "name": "山積みの蔵書",
+        "assetbundleName": "chara_toya",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_toya",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 12
+      },
+      {
+        "id": 31,
+        "virtualItemCategory": "normal",
+        "seq": 370,
+        "priority": 310,
+        "name": "ショー☆スター",
+        "assetbundleName": "chara_tukasa",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_tukasa",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 13
+      },
+      {
+        "id": 32,
+        "virtualItemCategory": "normal",
+        "seq": 380,
+        "priority": 320,
+        "name": "一緒にわんだほーい",
+        "assetbundleName": "chara_emu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_emu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 14
+      },
+      {
+        "id": 33,
+        "virtualItemCategory": "normal",
+        "seq": 390,
+        "priority": 330,
+        "name": "ネネロボ発進！",
+        "assetbundleName": "chara_nene",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_nene",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 15
+      },
+      {
+        "id": 34,
+        "virtualItemCategory": "normal",
+        "seq": 400,
+        "priority": 340,
+        "name": "ドローンマジック",
+        "assetbundleName": "chara_rui",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rui",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 16
+      },
+      {
+        "id": 35,
+        "virtualItemCategory": "normal",
+        "seq": 410,
+        "priority": 350,
+        "name": "即席カップ麵",
+        "assetbundleName": "chara_kanade",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kanade",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 17
+      },
+      {
+        "id": 36,
+        "virtualItemCategory": "normal",
+        "seq": 420,
+        "priority": 360,
+        "name": "消えたい気持ち",
+        "assetbundleName": "chara_mafuyu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mafuyu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 18
+      },
+      {
+        "id": 37,
+        "virtualItemCategory": "normal",
+        "seq": 430,
+        "priority": 370,
+        "name": "いいねマーク",
+        "assetbundleName": "chara_ena",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ena",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 19
+      },
+      {
+        "id": 38,
+        "virtualItemCategory": "normal",
+        "seq": 440,
+        "priority": 380,
+        "name": "可愛いリボン",
+        "assetbundleName": "chara_mizuki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mizuki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 20
+      },
+      {
+        "id": 39,
+        "virtualItemCategory": "normal",
+        "seq": 150,
+        "priority": 390,
+        "name": "ネギステッキ",
+        "assetbundleName": "chara_miku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_miku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 21
+      },
+      {
+        "id": 40,
+        "virtualItemCategory": "normal",
+        "seq": 160,
+        "priority": 400,
+        "name": "はじけるミカン",
+        "assetbundleName": "chara_rin",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rin",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 22
+      },
+      {
+        "id": 41,
+        "virtualItemCategory": "normal",
+        "seq": 170,
+        "priority": 410,
+        "name": "おやつのバナナ",
+        "assetbundleName": "chara_len",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_len",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 23
+      },
+      {
+        "id": 42,
+        "virtualItemCategory": "normal",
+        "seq": 180,
+        "priority": 420,
+        "name": "オオマさん",
+        "assetbundleName": "chara_luka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_luka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 24
+      },
+      {
+        "id": 43,
+        "virtualItemCategory": "normal",
+        "seq": 190,
+        "priority": 430,
+        "name": "乾杯ワイン",
+        "assetbundleName": "chara_meiko",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_meiko",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 25
+      },
+      {
+        "id": 44,
+        "virtualItemCategory": "normal",
+        "seq": 200,
+        "priority": 440,
+        "name": "アイスバー",
+        "assetbundleName": "chara_kaito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kaito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 26
+      },
+      {
+        "id": 46,
+        "virtualItemCategory": "normal",
+        "seq": 460,
+        "priority": 460,
+        "name": "プラネタリウム",
+        "assetbundleName": "event_planetarium",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_planetarium",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 47,
+        "virtualItemCategory": "normal",
+        "seq": 470,
+        "priority": 470,
+        "name": "マリオネット人形",
+        "assetbundleName": "event_marionette",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_marionette",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 50,
+        "virtualItemCategory": "normal",
+        "seq": 500,
+        "priority": 500,
+        "name": "ロボットゾンビ",
+        "assetbundleName": "event_zombie",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_zombie",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 53,
+        "virtualItemCategory": "normal",
+        "seq": 530,
+        "priority": 530,
+        "name": "水玉ハート",
+        "assetbundleName": "event_restart",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_restart",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 54,
+        "virtualItemCategory": "normal",
+        "seq": 540,
+        "priority": 540,
+        "name": "ミュージックバトル",
+        "assetbundleName": "event_forward",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_forward",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 56,
+        "virtualItemCategory": "normal",
+        "seq": 560,
+        "priority": 560,
+        "name": "クリスマスネネロボ",
+        "assetbundleName": "event_nijiiro",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_nijiiro",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 68,
+        "virtualItemCategory": "normal",
+        "seq": 680,
+        "priority": 680,
+        "name": "合唱コンクール",
+        "assetbundleName": "event_hareomatsu",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hareomatsu",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 69,
+        "virtualItemCategory": "normal",
+        "seq": 690,
+        "priority": 690,
+        "name": "舞降る花びら",
+        "assetbundleName": "event_color",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_color",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 72,
+        "virtualItemCategory": "normal",
+        "seq": 720,
+        "priority": 720,
+        "name": "バイオリンの音色",
+        "assetbundleName": "event_nocturne",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_nocturne",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 76,
+        "virtualItemCategory": "normal",
+        "seq": 760,
+        "priority": 760,
+        "name": "雨上がりの空",
+        "assetbundleName": "event_infinitelygray",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_infinitelygray",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 78,
+        "virtualItemCategory": "normal",
+        "seq": 780,
+        "priority": 780,
+        "name": "ワンダーフェリスホイール",
+        "assetbundleName": "event_dream",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_dream",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 79,
+        "virtualItemCategory": "normal",
+        "seq": 790,
+        "priority": 790,
+        "name": "天馬兄妹のひな祭り",
+        "assetbundleName": "event_hinamatsuri",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hinamatsuri",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 82,
+        "virtualItemCategory": "normal",
+        "seq": 820,
+        "priority": 820,
+        "name": "天使の羽ばたき",
+        "assetbundleName": "event_angelclover",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_angelclover",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 83,
+        "virtualItemCategory": "normal",
+        "seq": 830,
+        "priority": 830,
+        "name": "桜吹雪",
+        "assetbundleName": "event_hanami",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_hanami",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 84,
+        "virtualItemCategory": "normal",
+        "seq": 840,
+        "priority": 840,
+        "name": "シークレット",
+        "assetbundleName": "event_secret",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_secret",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 86,
+        "virtualItemCategory": "normal",
+        "seq": 860,
+        "priority": 860,
+        "name": "FIRST LIVE",
+        "assetbundleName": "event_resonate",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_resonate",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 88,
+        "virtualItemCategory": "normal",
+        "seq": 880,
+        "priority": 880,
+        "name": "Cheers Microphones",
+        "assetbundleName": "event_stray",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_stray",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 90,
+        "virtualItemCategory": "normal",
+        "seq": 900,
+        "priority": 900,
+        "name": "Forest Fairy",
+        "assetbundleName": "event_picnic",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_picnic",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 92,
+        "virtualItemCategory": "normal",
+        "seq": 920,
+        "priority": 920,
+        "name": "コウテイペンギンデラックスパフェ",
+        "assetbundleName": "event_breaktime",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_breaktime",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 94,
+        "virtualItemCategory": "normal",
+        "seq": 940,
+        "priority": 940,
+        "name": "フラワーシャワー",
+        "assetbundleName": "event_bridal",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_bridal",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 95,
+        "virtualItemCategory": "normal",
+        "seq": 950,
+        "priority": 950,
+        "name": "魔法のワンダーランド",
+        "assetbundleName": "event_wonders",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_wonders",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 96,
+        "virtualItemCategory": "normal",
+        "seq": 960,
+        "priority": 960,
+        "name": "想い出のオルゴール",
+        "assetbundleName": "event_carnation",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_carnation",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 98,
+        "virtualItemCategory": "normal",
+        "seq": 980,
+        "priority": 980,
+        "name": "シンセサイザー",
+        "assetbundleName": "event_unnamed",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_unnamed",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 100,
+        "virtualItemCategory": "normal",
+        "seq": 1000,
+        "priority": 1000,
+        "name": "ビーストオンステージ",
+        "assetbundleName": "event_awakening",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_awakening",
+        "effectExpressionType": "throw_effect"
+      }
+    ],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 446,
+    "virtualLiveType": "normal",
+    "virtualLivePlatform": "v2",
+    "seq": 120,
+    "name": "HAPPY BIRTHDAYライブ 志歩 2026",
+    "assetbundleName": "vlentrance_00446",
+    "screenMvMusicVocalId": 1411,
+    "startAt": 1767679200000,
+    "endAt": 1767938399000,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2247,
+        "virtualLiveId": 446,
+        "seq": 1,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_bd_2026shiho_1",
+        "virtualLiveStageId": 2
+      },
+      {
+        "id": 2248,
+        "virtualLiveId": 446,
+        "seq": 2,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0383_001",
+        "virtualLiveStageId": 2,
+        "musicId": 383,
+        "musicVocalId": 1411,
+        "character3dId1": 2255,
+        "character3dId2": 2258,
+        "character3dId3": 2257,
+        "character3dId4": 2256,
+        "character3dId5": 2259
+      },
+      {
+        "id": 2249,
+        "virtualLiveId": 446,
+        "seq": 3,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_bd_2026shiho_2",
+        "virtualLiveStageId": 2
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [
+      {
+        "id": 6636,
+        "virtualLiveId": 446,
+        "seq": 1,
+        "startAt": 1767798000000,
+        "endAt": 1767798491000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6637,
+        "virtualLiveId": 446,
+        "seq": 2,
+        "startAt": 1767801600000,
+        "endAt": 1767802091000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6638,
+        "virtualLiveId": 446,
+        "seq": 3,
+        "startAt": 1767805200000,
+        "endAt": 1767805691000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6639,
+        "virtualLiveId": 446,
+        "seq": 4,
+        "startAt": 1767808800000,
+        "endAt": 1767809291000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6640,
+        "virtualLiveId": 446,
+        "seq": 5,
+        "startAt": 1767812400000,
+        "endAt": 1767812891000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6641,
+        "virtualLiveId": 446,
+        "seq": 6,
+        "startAt": 1767816000000,
+        "endAt": 1767816491000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6642,
+        "virtualLiveId": 446,
+        "seq": 7,
+        "startAt": 1767819600000,
+        "endAt": 1767820091000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6643,
+        "virtualLiveId": 446,
+        "seq": 8,
+        "startAt": 1767823200000,
+        "endAt": 1767823691000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6644,
+        "virtualLiveId": 446,
+        "seq": 9,
+        "startAt": 1767826800000,
+        "endAt": 1767827291000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6645,
+        "virtualLiveId": 446,
+        "seq": 10,
+        "startAt": 1767830400000,
+        "endAt": 1767830891000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6646,
+        "virtualLiveId": 446,
+        "seq": 11,
+        "startAt": 1767834000000,
+        "endAt": 1767834491000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6647,
+        "virtualLiveId": 446,
+        "seq": 12,
+        "startAt": 1767837600000,
+        "endAt": 1767838091000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6648,
+        "virtualLiveId": 446,
+        "seq": 13,
+        "startAt": 1767841200000,
+        "endAt": 1767841691000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6649,
+        "virtualLiveId": 446,
+        "seq": 14,
+        "startAt": 1767844800000,
+        "endAt": 1767845291000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6650,
+        "virtualLiveId": 446,
+        "seq": 15,
+        "startAt": 1767848400000,
+        "endAt": 1767848891000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6651,
+        "virtualLiveId": 446,
+        "seq": 16,
+        "startAt": 1767852000000,
+        "endAt": 1767852491000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6652,
+        "virtualLiveId": 446,
+        "seq": 17,
+        "startAt": 1767855600000,
+        "endAt": 1767856091000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6653,
+        "virtualLiveId": 446,
+        "seq": 18,
+        "startAt": 1767859200000,
+        "endAt": 1767859691000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6654,
+        "virtualLiveId": 446,
+        "seq": 19,
+        "startAt": 1767862800000,
+        "endAt": 1767863291000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6655,
+        "virtualLiveId": 446,
+        "seq": 20,
+        "startAt": 1767866400000,
+        "endAt": 1767866891000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6656,
+        "virtualLiveId": 446,
+        "seq": 21,
+        "startAt": 1767870000000,
+        "endAt": 1767870491000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6657,
+        "virtualLiveId": 446,
+        "seq": 22,
+        "startAt": 1767873600000,
+        "endAt": 1767874091000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6658,
+        "virtualLiveId": 446,
+        "seq": 23,
+        "startAt": 1767877200000,
+        "endAt": 1767877691000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6659,
+        "virtualLiveId": 446,
+        "seq": 24,
+        "startAt": 1767880800000,
+        "endAt": 1767881291000,
+        "isAfterEvent": false
+      }
+    ],
+    "virtualLiveCharacters": [
+      {
+        "id": 3470,
+        "virtualLiveId": 446,
+        "gameCharacterUnitId": 1,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3471,
+        "virtualLiveId": 446,
+        "gameCharacterUnitId": 2,
+        "seq": 2,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3472,
+        "virtualLiveId": 446,
+        "gameCharacterUnitId": 3,
+        "seq": 3,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3473,
+        "virtualLiveId": 446,
+        "gameCharacterUnitId": 4,
+        "seq": 4,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3474,
+        "virtualLiveId": 446,
+        "gameCharacterUnitId": 22,
+        "seq": 5,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 798,
+        "virtualLiveType": "normal",
+        "virtualLiveId": 446,
+        "resourceBoxId": 756
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 446,
+      "virtualLiveId": 446,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1767679200000,
+      "endAt": 1767938399000
+    },
+    "virtualItems": [
+      {
+        "id": 67,
+        "virtualItemCategory": "normal",
+        "seq": 670,
+        "priority": 670,
+        "name": "HAPPY BIRTHDAY 志歩",
+        "assetbundleName": "chara_shiho_birthday",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "chara_shiho_birthday",
+        "effectExpressionType": "throw_effect",
+        "virtualItemLabelType": "special",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 1,
+        "virtualItemCategory": "normal",
+        "seq": 10,
+        "priority": 10,
+        "name": "紙吹雪",
+        "assetbundleName": "cracker_001",
+        "costVirtualCoin": 30,
+        "costJewel": 10,
+        "effectAssetbundleName": "cracker_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 2,
+        "virtualItemCategory": "normal",
+        "seq": 20,
+        "priority": 20,
+        "name": "風船",
+        "assetbundleName": "baloon_001",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "baloon_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 4,
+        "virtualItemCategory": "normal",
+        "seq": 40,
+        "priority": 40,
+        "name": "ハート",
+        "assetbundleName": "heart_001",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "heart_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 5,
+        "virtualItemCategory": "spread",
+        "seq": 150,
+        "priority": 50,
+        "name": "レーザー",
+        "assetbundleName": "leser_all_001",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "leser_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 6,
+        "virtualItemCategory": "spread",
+        "seq": 170,
+        "priority": 60,
+        "name": "セカイの想い",
+        "assetbundleName": "sekai_all_001",
+        "costVirtualCoin": 3000,
+        "costJewel": 1000,
+        "effectAssetbundleName": "sekai_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 8,
+        "virtualItemCategory": "spread",
+        "seq": 160,
+        "priority": 80,
+        "name": "雪",
+        "assetbundleName": "snow_all_001",
+        "costVirtualCoin": 900,
+        "costJewel": 300,
+        "effectAssetbundleName": "snow_all_001",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 9,
+        "virtualItemCategory": "spread",
+        "seq": 110,
+        "priority": 100,
+        "name": "三つ葉のクローバー",
+        "assetbundleName": "unit_clover_morejump",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_clover_morejump",
+        "effectExpressionType": "throw_effect",
+        "unit": "idol"
+      },
+      {
+        "id": 10,
+        "virtualItemCategory": "spread",
+        "seq": 140,
+        "priority": 130,
+        "name": "割れたココロ",
+        "assetbundleName": "unit_heart_25night",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_heart_25night",
+        "effectExpressionType": "throw_effect",
+        "unit": "school_refusal"
+      },
+      {
+        "id": 11,
+        "virtualItemCategory": "spread",
+        "seq": 130,
+        "priority": 120,
+        "name": "ショウの王冠",
+        "assetbundleName": "unit_king_wonder",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_king_wonder",
+        "effectExpressionType": "throw_effect",
+        "unit": "theme_park"
+      },
+      {
+        "id": 12,
+        "virtualItemCategory": "spread",
+        "seq": 90,
+        "priority": 140,
+        "name": "6人の音色",
+        "assetbundleName": "unit_sing_piapro",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_sing_piapro",
+        "effectExpressionType": "throw_effect",
+        "unit": "piapro"
+      },
+      {
+        "id": 13,
+        "virtualItemCategory": "spread",
+        "seq": 100,
+        "priority": 90,
+        "name": "しし座流星群",
+        "assetbundleName": "unit_star_leoneed",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_star_leoneed",
+        "effectExpressionType": "throw_effect",
+        "unit": "light_sound"
+      },
+      {
+        "id": 14,
+        "virtualItemCategory": "spread",
+        "seq": 120,
+        "priority": 110,
+        "name": "レコードの落書き",
+        "assetbundleName": "unit_record_vivibad",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "unit_record_vivibad",
+        "effectExpressionType": "throw_effect",
+        "unit": "street"
+      },
+      {
+        "id": 15,
+        "virtualItemCategory": "normal",
+        "seq": 30,
+        "priority": 150,
+        "name": "打ち上げ花火",
+        "assetbundleName": "fireworks_rocket",
+        "costVirtualCoin": 90,
+        "costJewel": 30,
+        "effectAssetbundleName": "fireworks_rocket",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 18,
+        "virtualItemCategory": "normal",
+        "seq": 50,
+        "priority": 180,
+        "name": "尊いうちわ",
+        "assetbundleName": "uchiwa",
+        "costVirtualCoin": 150,
+        "costJewel": 50,
+        "effectAssetbundleName": "uchiwa",
+        "effectExpressionType": "throw_effect"
+      },
+      {
+        "id": 19,
+        "virtualItemCategory": "normal",
+        "seq": 250,
+        "priority": 190,
+        "name": "鳴り響くギター",
+        "assetbundleName": "chara_ichika",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ichika",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 1
+      },
+      {
+        "id": 20,
+        "virtualItemCategory": "normal",
+        "seq": 260,
+        "priority": 200,
+        "name": "元気な笑顔",
+        "assetbundleName": "chara_saki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_saki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 2
+      },
+      {
+        "id": 21,
+        "virtualItemCategory": "normal",
+        "seq": 270,
+        "priority": 210,
+        "name": "絶品アップルパイ",
+        "assetbundleName": "chara_honami",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_honami",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 3
+      },
+      {
+        "id": 22,
+        "virtualItemCategory": "normal",
+        "seq": 280,
+        "priority": 220,
+        "name": "あつあつラーメン",
+        "assetbundleName": "chara_shiho",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shiho",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 4
+      },
+      {
+        "id": 23,
+        "virtualItemCategory": "normal",
+        "seq": 290,
+        "priority": 230,
+        "name": "みのりんコール",
+        "assetbundleName": "chara_minori",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_minori",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 5
+      },
+      {
+        "id": 24,
+        "virtualItemCategory": "normal",
+        "seq": 300,
+        "priority": 240,
+        "name": "応援ペンギン",
+        "assetbundleName": "chara_haruka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_haruka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 6
+      },
+      {
+        "id": 25,
+        "virtualItemCategory": "normal",
+        "seq": 310,
+        "priority": 250,
+        "name": "ハートピーチ",
+        "assetbundleName": "chara_airi",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_airi",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 7
+      },
+      {
+        "id": 26,
+        "virtualItemCategory": "normal",
+        "seq": 320,
+        "priority": 260,
+        "name": "なごみの声",
+        "assetbundleName": "chara_shizuku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_shizuku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 8
+      },
+      {
+        "id": 27,
+        "virtualItemCategory": "normal",
+        "seq": 330,
+        "priority": 270,
+        "name": "ハムラップ",
+        "assetbundleName": "chara_kohane",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kohane",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 9
+      },
+      {
+        "id": 28,
+        "virtualItemCategory": "normal",
+        "seq": 340,
+        "priority": 280,
+        "name": "コーヒーアート",
+        "assetbundleName": "chara_an",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_an",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 10
+      },
+      {
+        "id": 29,
+        "virtualItemCategory": "normal",
+        "seq": 350,
+        "priority": 290,
+        "name": "リバーシブル",
+        "assetbundleName": "chara_akito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_akito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 11
+      },
+      {
+        "id": 30,
+        "virtualItemCategory": "normal",
+        "seq": 360,
+        "priority": 300,
+        "name": "山積みの蔵書",
+        "assetbundleName": "chara_toya",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_toya",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 12
+      },
+      {
+        "id": 31,
+        "virtualItemCategory": "normal",
+        "seq": 370,
+        "priority": 310,
+        "name": "ショー☆スター",
+        "assetbundleName": "chara_tukasa",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_tukasa",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 13
+      },
+      {
+        "id": 32,
+        "virtualItemCategory": "normal",
+        "seq": 380,
+        "priority": 320,
+        "name": "一緒にわんだほーい",
+        "assetbundleName": "chara_emu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_emu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 14
+      },
+      {
+        "id": 33,
+        "virtualItemCategory": "normal",
+        "seq": 390,
+        "priority": 330,
+        "name": "ネネロボ発進！",
+        "assetbundleName": "chara_nene",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_nene",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 15
+      },
+      {
+        "id": 34,
+        "virtualItemCategory": "normal",
+        "seq": 400,
+        "priority": 340,
+        "name": "ドローンマジック",
+        "assetbundleName": "chara_rui",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rui",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 16
+      },
+      {
+        "id": 35,
+        "virtualItemCategory": "normal",
+        "seq": 410,
+        "priority": 350,
+        "name": "即席カップ麵",
+        "assetbundleName": "chara_kanade",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kanade",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 17
+      },
+      {
+        "id": 36,
+        "virtualItemCategory": "normal",
+        "seq": 420,
+        "priority": 360,
+        "name": "消えたい気持ち",
+        "assetbundleName": "chara_mafuyu",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mafuyu",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 18
+      },
+      {
+        "id": 37,
+        "virtualItemCategory": "normal",
+        "seq": 430,
+        "priority": 370,
+        "name": "いいねマーク",
+        "assetbundleName": "chara_ena",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_ena",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 19
+      },
+      {
+        "id": 38,
+        "virtualItemCategory": "normal",
+        "seq": 440,
+        "priority": 380,
+        "name": "可愛いリボン",
+        "assetbundleName": "chara_mizuki",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_mizuki",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 20
+      },
+      {
+        "id": 39,
+        "virtualItemCategory": "normal",
+        "seq": 150,
+        "priority": 390,
+        "name": "ネギステッキ",
+        "assetbundleName": "chara_miku",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_miku",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 21
+      },
+      {
+        "id": 40,
+        "virtualItemCategory": "normal",
+        "seq": 160,
+        "priority": 400,
+        "name": "はじけるミカン",
+        "assetbundleName": "chara_rin",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_rin",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 22
+      },
+      {
+        "id": 41,
+        "virtualItemCategory": "normal",
+        "seq": 170,
+        "priority": 410,
+        "name": "おやつのバナナ",
+        "assetbundleName": "chara_len",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_len",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 23
+      },
+      {
+        "id": 42,
+        "virtualItemCategory": "normal",
+        "seq": 180,
+        "priority": 420,
+        "name": "オオマさん",
+        "assetbundleName": "chara_luka",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_luka",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 24
+      },
+      {
+        "id": 43,
+        "virtualItemCategory": "normal",
+        "seq": 190,
+        "priority": 430,
+        "name": "乾杯ワイン",
+        "assetbundleName": "chara_meiko",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_meiko",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 25
+      },
+      {
+        "id": 44,
+        "virtualItemCategory": "normal",
+        "seq": 200,
+        "priority": 440,
+        "name": "アイスバー",
+        "assetbundleName": "chara_kaito",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "chara_kaito",
+        "effectExpressionType": "throw_effect",
+        "gameCharacterUnitId": 26
+      }
+    ],
+    "virtualLiveAppeals": [],
+    "virtualLiveBackgroundMusics": [],
+    "virtualLiveInformation": {}
+  },
+  {
+    "id": 447,
+    "virtualLiveType": "normal",
+    "virtualLivePlatform": "v2",
+    "seq": 105,
+    "name": "ハッピーニューイヤー2026ライブ後編",
+    "assetbundleName": "vlentrance_00447",
+    "screenMvMusicVocalId": 1686,
+    "startAt": 1767160800000,
+    "endAt": 1767506399000,
+    "rankingAnnounceAt": 4102412399000,
+    "virtualLiveSetlists": [
+      {
+        "id": 2250,
+        "virtualLiveId": 447,
+        "seq": 1,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_5",
+        "virtualLiveStageId": 21
+      },
+      {
+        "id": 2251,
+        "virtualLiveId": 447,
+        "seq": 2,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0474_002",
+        "virtualLiveStageId": 21,
+        "musicId": 474,
+        "musicVocalId": 1460,
+        "character3dId1": 2224,
+        "character3dId2": 2223,
+        "character3dId3": 2222,
+        "character3dId4": 2225,
+        "character3dId5": 2226
+      },
+      {
+        "id": 2252,
+        "virtualLiveId": 447,
+        "seq": 3,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0116_001",
+        "virtualLiveStageId": 6,
+        "musicId": 116,
+        "musicVocalId": 173,
+        "character3dId1": 2230,
+        "character3dId2": 2229,
+        "character3dId3": 2227,
+        "character3dId4": 2231,
+        "character3dId5": 2228
+      },
+      {
+        "id": 2253,
+        "virtualLiveId": 447,
+        "seq": 4,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_6",
+        "virtualLiveStageId": 6
+      },
+      {
+        "id": 2254,
+        "virtualLiveId": 447,
+        "seq": 5,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_7",
+        "virtualLiveStageId": 7
+      },
+      {
+        "id": 2255,
+        "virtualLiveId": 447,
+        "seq": 6,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0423_001",
+        "virtualLiveStageId": 7,
+        "musicId": 423,
+        "musicVocalId": 1424,
+        "character3dId1": 2234,
+        "character3dId2": 2235,
+        "character3dId3": 2236,
+        "character3dId4": 2232,
+        "character3dId5": 2233
+      },
+      {
+        "id": 2256,
+        "virtualLiveId": 447,
+        "seq": 7,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_8",
+        "virtualLiveStageId": 1
+      },
+      {
+        "id": 2257,
+        "virtualLiveId": 447,
+        "seq": 8,
+        "virtualLiveSetlistType": "music",
+        "assetbundleName": "0585_003",
+        "virtualLiveStageId": 29,
+        "musicId": 585,
+        "musicVocalId": 1685,
+        "character3dId1": 2238,
+        "character3dId2": 2240,
+        "character3dId3": 2239,
+        "character3dId4": 2241,
+        "character3dId5": 2237,
+        "character3dId6": 2111
+      },
+      {
+        "id": 2258,
+        "virtualLiveId": 447,
+        "seq": 9,
+        "virtualLiveSetlistType": "mc_timeline",
+        "assetbundleName": "mc_2026newyear_9",
+        "virtualLiveStageId": 29
+      }
+    ],
+    "virtualLiveBeginnerSchedules": [],
+    "virtualLiveSchedules": [
+      {
+        "id": 6660,
+        "virtualLiveId": 447,
+        "seq": 1,
+        "startAt": 1767194100000,
+        "endAt": 1767195118000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6661,
+        "virtualLiveId": 447,
+        "seq": 2,
+        "startAt": 1767198120000,
+        "endAt": 1767199138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6662,
+        "virtualLiveId": 447,
+        "seq": 3,
+        "startAt": 1767201720000,
+        "endAt": 1767202738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6663,
+        "virtualLiveId": 447,
+        "seq": 4,
+        "startAt": 1767205320000,
+        "endAt": 1767206338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6664,
+        "virtualLiveId": 447,
+        "seq": 5,
+        "startAt": 1767208920000,
+        "endAt": 1767209938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6665,
+        "virtualLiveId": 447,
+        "seq": 6,
+        "startAt": 1767212520000,
+        "endAt": 1767213538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6666,
+        "virtualLiveId": 447,
+        "seq": 7,
+        "startAt": 1767216120000,
+        "endAt": 1767217138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6667,
+        "virtualLiveId": 447,
+        "seq": 8,
+        "startAt": 1767219720000,
+        "endAt": 1767220738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6668,
+        "virtualLiveId": 447,
+        "seq": 9,
+        "startAt": 1767223320000,
+        "endAt": 1767224338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6669,
+        "virtualLiveId": 447,
+        "seq": 10,
+        "startAt": 1767226920000,
+        "endAt": 1767227938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6670,
+        "virtualLiveId": 447,
+        "seq": 11,
+        "startAt": 1767230520000,
+        "endAt": 1767231538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6671,
+        "virtualLiveId": 447,
+        "seq": 12,
+        "startAt": 1767234120000,
+        "endAt": 1767235138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6672,
+        "virtualLiveId": 447,
+        "seq": 13,
+        "startAt": 1767237720000,
+        "endAt": 1767238738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6673,
+        "virtualLiveId": 447,
+        "seq": 14,
+        "startAt": 1767241320000,
+        "endAt": 1767242338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6674,
+        "virtualLiveId": 447,
+        "seq": 15,
+        "startAt": 1767244920000,
+        "endAt": 1767245938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6675,
+        "virtualLiveId": 447,
+        "seq": 16,
+        "startAt": 1767248520000,
+        "endAt": 1767249538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6676,
+        "virtualLiveId": 447,
+        "seq": 17,
+        "startAt": 1767252120000,
+        "endAt": 1767253138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6677,
+        "virtualLiveId": 447,
+        "seq": 18,
+        "startAt": 1767255720000,
+        "endAt": 1767256738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6678,
+        "virtualLiveId": 447,
+        "seq": 19,
+        "startAt": 1767259320000,
+        "endAt": 1767260338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6679,
+        "virtualLiveId": 447,
+        "seq": 20,
+        "startAt": 1767262920000,
+        "endAt": 1767263938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6680,
+        "virtualLiveId": 447,
+        "seq": 21,
+        "startAt": 1767266520000,
+        "endAt": 1767267538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6681,
+        "virtualLiveId": 447,
+        "seq": 22,
+        "startAt": 1767270120000,
+        "endAt": 1767271138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6682,
+        "virtualLiveId": 447,
+        "seq": 23,
+        "startAt": 1767273720000,
+        "endAt": 1767274738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6683,
+        "virtualLiveId": 447,
+        "seq": 24,
+        "startAt": 1767277320000,
+        "endAt": 1767278338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6684,
+        "virtualLiveId": 447,
+        "seq": 25,
+        "startAt": 1767280920000,
+        "endAt": 1767281938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6685,
+        "virtualLiveId": 447,
+        "seq": 26,
+        "startAt": 1767284520000,
+        "endAt": 1767285538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6686,
+        "virtualLiveId": 447,
+        "seq": 27,
+        "startAt": 1767288120000,
+        "endAt": 1767289138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6687,
+        "virtualLiveId": 447,
+        "seq": 28,
+        "startAt": 1767291720000,
+        "endAt": 1767292738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6688,
+        "virtualLiveId": 447,
+        "seq": 29,
+        "startAt": 1767295320000,
+        "endAt": 1767296338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6689,
+        "virtualLiveId": 447,
+        "seq": 30,
+        "startAt": 1767298920000,
+        "endAt": 1767299938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6690,
+        "virtualLiveId": 447,
+        "seq": 31,
+        "startAt": 1767302520000,
+        "endAt": 1767303538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6691,
+        "virtualLiveId": 447,
+        "seq": 32,
+        "startAt": 1767306120000,
+        "endAt": 1767307138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6692,
+        "virtualLiveId": 447,
+        "seq": 33,
+        "startAt": 1767309720000,
+        "endAt": 1767310738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6693,
+        "virtualLiveId": 447,
+        "seq": 34,
+        "startAt": 1767313320000,
+        "endAt": 1767314338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6694,
+        "virtualLiveId": 447,
+        "seq": 35,
+        "startAt": 1767316920000,
+        "endAt": 1767317938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6695,
+        "virtualLiveId": 447,
+        "seq": 36,
+        "startAt": 1767320520000,
+        "endAt": 1767321538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6696,
+        "virtualLiveId": 447,
+        "seq": 37,
+        "startAt": 1767324120000,
+        "endAt": 1767325138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6697,
+        "virtualLiveId": 447,
+        "seq": 38,
+        "startAt": 1767327720000,
+        "endAt": 1767328738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6698,
+        "virtualLiveId": 447,
+        "seq": 39,
+        "startAt": 1767331320000,
+        "endAt": 1767332338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6699,
+        "virtualLiveId": 447,
+        "seq": 40,
+        "startAt": 1767334920000,
+        "endAt": 1767335938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6700,
+        "virtualLiveId": 447,
+        "seq": 41,
+        "startAt": 1767338520000,
+        "endAt": 1767339538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6701,
+        "virtualLiveId": 447,
+        "seq": 42,
+        "startAt": 1767342120000,
+        "endAt": 1767343138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6702,
+        "virtualLiveId": 447,
+        "seq": 43,
+        "startAt": 1767345720000,
+        "endAt": 1767346738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6703,
+        "virtualLiveId": 447,
+        "seq": 44,
+        "startAt": 1767349320000,
+        "endAt": 1767350338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6704,
+        "virtualLiveId": 447,
+        "seq": 45,
+        "startAt": 1767352920000,
+        "endAt": 1767353938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6705,
+        "virtualLiveId": 447,
+        "seq": 46,
+        "startAt": 1767356520000,
+        "endAt": 1767357538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6706,
+        "virtualLiveId": 447,
+        "seq": 47,
+        "startAt": 1767360120000,
+        "endAt": 1767361138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6707,
+        "virtualLiveId": 447,
+        "seq": 48,
+        "startAt": 1767363720000,
+        "endAt": 1767364738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6708,
+        "virtualLiveId": 447,
+        "seq": 49,
+        "startAt": 1767367320000,
+        "endAt": 1767368338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6709,
+        "virtualLiveId": 447,
+        "seq": 50,
+        "startAt": 1767370920000,
+        "endAt": 1767371938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6710,
+        "virtualLiveId": 447,
+        "seq": 51,
+        "startAt": 1767374520000,
+        "endAt": 1767375538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6711,
+        "virtualLiveId": 447,
+        "seq": 52,
+        "startAt": 1767378120000,
+        "endAt": 1767379138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6712,
+        "virtualLiveId": 447,
+        "seq": 53,
+        "startAt": 1767381720000,
+        "endAt": 1767382738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6713,
+        "virtualLiveId": 447,
+        "seq": 54,
+        "startAt": 1767385320000,
+        "endAt": 1767386338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6714,
+        "virtualLiveId": 447,
+        "seq": 55,
+        "startAt": 1767388920000,
+        "endAt": 1767389938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6715,
+        "virtualLiveId": 447,
+        "seq": 56,
+        "startAt": 1767392520000,
+        "endAt": 1767393538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6716,
+        "virtualLiveId": 447,
+        "seq": 57,
+        "startAt": 1767396120000,
+        "endAt": 1767397138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6717,
+        "virtualLiveId": 447,
+        "seq": 58,
+        "startAt": 1767399720000,
+        "endAt": 1767400738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6718,
+        "virtualLiveId": 447,
+        "seq": 59,
+        "startAt": 1767403320000,
+        "endAt": 1767404338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6719,
+        "virtualLiveId": 447,
+        "seq": 60,
+        "startAt": 1767406920000,
+        "endAt": 1767407938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6720,
+        "virtualLiveId": 447,
+        "seq": 61,
+        "startAt": 1767410520000,
+        "endAt": 1767411538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6721,
+        "virtualLiveId": 447,
+        "seq": 62,
+        "startAt": 1767414120000,
+        "endAt": 1767415138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6722,
+        "virtualLiveId": 447,
+        "seq": 63,
+        "startAt": 1767417720000,
+        "endAt": 1767418738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6723,
+        "virtualLiveId": 447,
+        "seq": 64,
+        "startAt": 1767421320000,
+        "endAt": 1767422338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6724,
+        "virtualLiveId": 447,
+        "seq": 65,
+        "startAt": 1767424920000,
+        "endAt": 1767425938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6725,
+        "virtualLiveId": 447,
+        "seq": 66,
+        "startAt": 1767428520000,
+        "endAt": 1767429538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6726,
+        "virtualLiveId": 447,
+        "seq": 67,
+        "startAt": 1767432120000,
+        "endAt": 1767433138000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6727,
+        "virtualLiveId": 447,
+        "seq": 68,
+        "startAt": 1767435720000,
+        "endAt": 1767436738000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6728,
+        "virtualLiveId": 447,
+        "seq": 69,
+        "startAt": 1767439320000,
+        "endAt": 1767440338000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6729,
+        "virtualLiveId": 447,
+        "seq": 70,
+        "startAt": 1767442920000,
+        "endAt": 1767443938000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6730,
+        "virtualLiveId": 447,
+        "seq": 71,
+        "startAt": 1767446520000,
+        "endAt": 1767447538000,
+        "isAfterEvent": false
+      },
+      {
+        "id": 6731,
+        "virtualLiveId": 447,
+        "seq": 72,
+        "startAt": 1767450120000,
+        "endAt": 1767451138000,
+        "isAfterEvent": false
+      }
+    ],
+    "virtualLiveCharacters": [
+      {
+        "id": 3475,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 1,
+        "seq": 1,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3476,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 2,
+        "seq": 2,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3477,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 3,
+        "seq": 3,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3478,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 4,
+        "seq": 4,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3479,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 5,
+        "seq": 5,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3480,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 6,
+        "seq": 6,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3481,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 7,
+        "seq": 7,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3482,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 8,
+        "seq": 8,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3483,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 17,
+        "seq": 9,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3484,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 18,
+        "seq": 10,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3485,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 19,
+        "seq": 11,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3486,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 20,
+        "seq": 12,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3487,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 21,
+        "seq": 13,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3488,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 22,
+        "seq": 14,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3489,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 23,
+        "seq": 15,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3490,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 24,
+        "seq": 16,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3491,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 25,
+        "seq": 17,
+        "virtualLivePerformanceType": "main_only"
+      },
+      {
+        "id": 3492,
+        "virtualLiveId": 447,
+        "gameCharacterUnitId": 26,
+        "seq": 18,
+        "virtualLivePerformanceType": "main_only"
+      }
+    ],
+    "virtualLiveRewards": [
+      {
+        "id": 801,
+        "virtualLiveType": "normal",
+        "virtualLiveId": 447,
+        "resourceBoxId": 753
+      }
+    ],
+    "virtualLiveCheerPointRewards": [],
+    "virtualLiveWaitingRoom": {
+      "id": 447,
+      "virtualLiveId": 447,
+      "assetbundleName": "banner_specialLive_sample_01",
+      "startAt": 1767160800000,
+      "endAt": 1767506399000
+    },
+    "virtualItems": [
+      {
+        "id": 220,
+        "virtualItemCategory": "normal",
+        "seq": 2200,
+        "priority": 2200,
+        "name": "HAPPY NEW YEAR 2026",
+        "assetbundleName": "event_new_year_2026_01",
+        "costVirtualCoin": 300,
+        "costJewel": 100,
+        "effectAssetbundleName": "event_new_year_2026_01",
+        "effectExpressionType": "throw_effect",
+        "virtualItemLabelType": "special"
+      },
+      {
+        "id": 221,
+        "virtualItemCategory": "normal",
+        "seq": 2210,
+        "priority": 2210,
+        "name": "2026干支「午」",
+        "assetbundleName": "event_new_year_2026_02",
+        "costVirtualCoin": 450,
+        "costJewel": 150,
+        "effectAssetbundleName": "event_new_year_2026_02",
+        "effectExpressionType": "throw_effect",
+        "virtualItemLabelType": "special"
       },
       {
         "id": 1,

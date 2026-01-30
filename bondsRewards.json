@@ -88992,6 +88992,15 @@
     "description": "「遥とルカ」レアリティ1-1"
   },
   {
+    "id": 10624005,
+    "bondsGroupId": 10624,
+    "rank": 5,
+    "seq": 5,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1062402,
+    "description": "「遥とルカ」称号文言1"
+  },
+  {
     "id": 10624006,
     "bondsGroupId": 10624,
     "rank": 5,
@@ -89091,6 +89100,14 @@
     "description": "「遥とルカ」レアリティ1-3"
   },
   {
+    "id": 10624017,
+    "bondsGroupId": 10624,
+    "rank": 16,
+    "seq": 17,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「遥とルカ」ライブ掛け合いボイス1"
+  },
+  {
     "id": 10624018,
     "bondsGroupId": 10624,
     "rank": 16,
@@ -89179,6 +89196,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1062407,
     "description": "「遥とルカ」レアリティ1-5"
+  },
+  {
+    "id": 10624028,
+    "bondsGroupId": 10624,
+    "rank": 26,
+    "seq": 28,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1062408,
+    "description": "「遥とルカ」称号文言2"
   },
   {
     "id": 10624029,
@@ -89271,6 +89297,14 @@
     "description": "「遥とルカ」レアリティ2-2"
   },
   {
+    "id": 10624039,
+    "bondsGroupId": 10624,
+    "rank": 36,
+    "seq": 39,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「遥とルカ」ライブ掛け合いボイス2"
+  },
+  {
     "id": 10624040,
     "bondsGroupId": 10624,
     "rank": 36,
@@ -89359,6 +89393,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1062412,
     "description": "「遥とルカ」レアリティ2-4"
+  },
+  {
+    "id": 10624050,
+    "bondsGroupId": 10624,
+    "rank": 46,
+    "seq": 50,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1062413,
+    "description": "「遥とルカ」称号文言3"
   },
   {
     "id": 10624051,
@@ -89451,6 +89494,14 @@
     "description": "「遥とルカ」レアリティ2-6"
   },
   {
+    "id": 10624061,
+    "bondsGroupId": 10624,
+    "rank": 56,
+    "seq": 61,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「遥とルカ」ライブ掛け合いボイス3"
+  },
+  {
     "id": 10624062,
     "bondsGroupId": 10624,
     "rank": 56,
@@ -89539,6 +89590,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1062417,
     "description": "「遥とルカ」レアリティ2-8"
+  },
+  {
+    "id": 10624072,
+    "bondsGroupId": 10624,
+    "rank": 66,
+    "seq": 72,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1062418,
+    "description": "「遥とルカ」キズナスタンプ"
   },
   {
     "id": 10624073,
@@ -114558,6 +114618,15 @@
     "description": "「雫とMEIKO」レアリティ1-1"
   },
   {
+    "id": 10825005,
+    "bondsGroupId": 10825,
+    "rank": 5,
+    "seq": 5,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1082502,
+    "description": "「雫とMEIKO」称号文言1"
+  },
+  {
     "id": 10825006,
     "bondsGroupId": 10825,
     "rank": 5,
@@ -114657,6 +114726,14 @@
     "description": "「雫とMEIKO」レアリティ1-3"
   },
   {
+    "id": 10825017,
+    "bondsGroupId": 10825,
+    "rank": 16,
+    "seq": 17,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「雫とMEIKO」ライブ掛け合いボイス1"
+  },
+  {
     "id": 10825018,
     "bondsGroupId": 10825,
     "rank": 16,
@@ -114745,6 +114822,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1082507,
     "description": "「雫とMEIKO」レアリティ1-5"
+  },
+  {
+    "id": 10825028,
+    "bondsGroupId": 10825,
+    "rank": 26,
+    "seq": 28,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1082508,
+    "description": "「雫とMEIKO」称号文言2"
   },
   {
     "id": 10825029,
@@ -114837,6 +114923,14 @@
     "description": "「雫とMEIKO」レアリティ2-2"
   },
   {
+    "id": 10825039,
+    "bondsGroupId": 10825,
+    "rank": 36,
+    "seq": 39,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「雫とMEIKO」ライブ掛け合いボイス2"
+  },
+  {
     "id": 10825040,
     "bondsGroupId": 10825,
     "rank": 36,
@@ -114925,6 +115019,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1082512,
     "description": "「雫とMEIKO」レアリティ2-4"
+  },
+  {
+    "id": 10825050,
+    "bondsGroupId": 10825,
+    "rank": 46,
+    "seq": 50,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1082513,
+    "description": "「雫とMEIKO」称号文言3"
   },
   {
     "id": 10825051,
@@ -115017,6 +115120,14 @@
     "description": "「雫とMEIKO」レアリティ2-6"
   },
   {
+    "id": 10825061,
+    "bondsGroupId": 10825,
+    "rank": 56,
+    "seq": 61,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「雫とMEIKO」ライブ掛け合いボイス3"
+  },
+  {
     "id": 10825062,
     "bondsGroupId": 10825,
     "rank": 56,
@@ -115105,6 +115216,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1082517,
     "description": "「雫とMEIKO」レアリティ2-8"
+  },
+  {
+    "id": 10825072,
+    "bondsGroupId": 10825,
+    "rank": 66,
+    "seq": 72,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1082518,
+    "description": "「雫とMEIKO」キズナスタンプ"
   },
   {
     "id": 10825073,

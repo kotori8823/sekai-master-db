@@ -5,6 +5,7 @@ on:
     branches: [ "main", "master" ]
     paths:
       - '**.json'
+  workflow_dispatch:
 jobs:
   notify-private-repo:
     runs-on: ubuntu-latest

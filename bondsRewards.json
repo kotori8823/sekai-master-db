@@ -8040,6 +8040,15 @@
     "description": "「一歌とえむ」レアリティ1-1"
   },
   {
+    "id": 10114005,
+    "bondsGroupId": 10114,
+    "rank": 5,
+    "seq": 5,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1011402,
+    "description": "「一歌とえむ」称号文言1"
+  },
+  {
     "id": 10114006,
     "bondsGroupId": 10114,
     "rank": 5,
@@ -8139,6 +8148,14 @@
     "description": "「一歌とえむ」レアリティ1-3"
   },
   {
+    "id": 10114017,
+    "bondsGroupId": 10114,
+    "rank": 16,
+    "seq": 17,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「一歌とえむ」ライブ掛け合いボイス1"
+  },
+  {
     "id": 10114018,
     "bondsGroupId": 10114,
     "rank": 16,
@@ -8227,6 +8244,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1011407,
     "description": "「一歌とえむ」レアリティ1-5"
+  },
+  {
+    "id": 10114028,
+    "bondsGroupId": 10114,
+    "rank": 26,
+    "seq": 28,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1011408,
+    "description": "「一歌とえむ」称号文言2"
   },
   {
     "id": 10114029,
@@ -8319,6 +8345,14 @@
     "description": "「一歌とえむ」レアリティ2-2"
   },
   {
+    "id": 10114039,
+    "bondsGroupId": 10114,
+    "rank": 36,
+    "seq": 39,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「一歌とえむ」ライブ掛け合いボイス2"
+  },
+  {
     "id": 10114040,
     "bondsGroupId": 10114,
     "rank": 36,
@@ -8407,6 +8441,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1011412,
     "description": "「一歌とえむ」レアリティ2-4"
+  },
+  {
+    "id": 10114050,
+    "bondsGroupId": 10114,
+    "rank": 46,
+    "seq": 50,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1011413,
+    "description": "「一歌とえむ」称号文言3"
   },
   {
     "id": 10114051,
@@ -8499,6 +8542,14 @@
     "description": "「一歌とえむ」レアリティ2-6"
   },
   {
+    "id": 10114061,
+    "bondsGroupId": 10114,
+    "rank": 56,
+    "seq": 61,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「一歌とえむ」ライブ掛け合いボイス3"
+  },
+  {
     "id": 10114062,
     "bondsGroupId": 10114,
     "rank": 56,
@@ -8587,6 +8638,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1011417,
     "description": "「一歌とえむ」レアリティ2-8"
+  },
+  {
+    "id": 10114072,
+    "bondsGroupId": 10114,
+    "rank": 66,
+    "seq": 72,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1011418,
+    "description": "「一歌とえむ」キズナスタンプ"
   },
   {
     "id": 10114073,
@@ -54675,6 +54735,15 @@
     "description": "「志歩とえむ」レアリティ1-1"
   },
   {
+    "id": 10414005,
+    "bondsGroupId": 10414,
+    "rank": 5,
+    "seq": 5,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1041402,
+    "description": "「志歩とえむ」称号文言1"
+  },
+  {
     "id": 10414006,
     "bondsGroupId": 10414,
     "rank": 5,
@@ -54774,6 +54843,14 @@
     "description": "「志歩とえむ」レアリティ1-3"
   },
   {
+    "id": 10414017,
+    "bondsGroupId": 10414,
+    "rank": 16,
+    "seq": 17,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「志歩とえむ」ライブ掛け合いボイス1"
+  },
+  {
     "id": 10414018,
     "bondsGroupId": 10414,
     "rank": 16,
@@ -54862,6 +54939,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1041407,
     "description": "「志歩とえむ」レアリティ1-5"
+  },
+  {
+    "id": 10414028,
+    "bondsGroupId": 10414,
+    "rank": 26,
+    "seq": 28,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1041408,
+    "description": "「志歩とえむ」称号文言2"
   },
   {
     "id": 10414029,
@@ -54954,6 +55040,14 @@
     "description": "「志歩とえむ」レアリティ2-2"
   },
   {
+    "id": 10414039,
+    "bondsGroupId": 10414,
+    "rank": 36,
+    "seq": 39,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「志歩とえむ」ライブ掛け合いボイス2"
+  },
+  {
     "id": 10414040,
     "bondsGroupId": 10414,
     "rank": 36,
@@ -55042,6 +55136,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1041412,
     "description": "「志歩とえむ」レアリティ2-4"
+  },
+  {
+    "id": 10414050,
+    "bondsGroupId": 10414,
+    "rank": 46,
+    "seq": 50,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1041413,
+    "description": "「志歩とえむ」称号文言3"
   },
   {
     "id": 10414051,
@@ -55134,6 +55237,14 @@
     "description": "「志歩とえむ」レアリティ2-6"
   },
   {
+    "id": 10414061,
+    "bondsGroupId": 10414,
+    "rank": 56,
+    "seq": 61,
+    "bondsRewardType": "cut_in_voice",
+    "description": "「志歩とえむ」ライブ掛け合いボイス3"
+  },
+  {
     "id": 10414062,
     "bondsGroupId": 10414,
     "rank": 56,
@@ -55222,6 +55333,15 @@
     "bondsRewardType": "resource",
     "resourceBoxId": 1041417,
     "description": "「志歩とえむ」レアリティ2-8"
+  },
+  {
+    "id": 10414072,
+    "bondsGroupId": 10414,
+    "rank": 66,
+    "seq": 72,
+    "bondsRewardType": "resource",
+    "resourceBoxId": 1041418,
+    "description": "「志歩とえむ」キズナスタンプ"
   },
   {
     "id": 10414073,

@@ -188617,5 +188617,157 @@
     "assetbundleName2": "system_bondscp_018_013_second_4",
     "releaseConditionId": 1131803,
     "isLotteryTarget": true
+  },
+  {
+    "id": 15999,
+    "ingameCutinCharacterType": "sp",
+    "priority": 200,
+    "gameCharacterUnitId1": 6,
+    "gameCharacterUnitId2": 17,
+    "assetbundleName1": "system_bondscp_006_017_first_1",
+    "assetbundleName2": "system_bondscp_006_017_second_1",
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16000,
+    "ingameCutinCharacterType": "sp",
+    "priority": 200,
+    "gameCharacterUnitId1": 17,
+    "gameCharacterUnitId2": 6,
+    "assetbundleName1": "system_bondscp_017_006_first_1",
+    "assetbundleName2": "system_bondscp_017_006_second_1",
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16001,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 1,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_001_014_first_2",
+    "assetbundleName2": "system_bondscp_001_014_second_2",
+    "releaseConditionId": 1011401,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16002,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 1,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_001_014_first_3",
+    "assetbundleName2": "system_bondscp_001_014_second_3",
+    "releaseConditionId": 1011402,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16003,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 1,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_001_014_first_4",
+    "assetbundleName2": "system_bondscp_001_014_second_4",
+    "releaseConditionId": 1011403,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16004,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 1,
+    "assetbundleName1": "system_bondscp_014_001_first_2",
+    "assetbundleName2": "system_bondscp_014_001_second_2",
+    "releaseConditionId": 1011401,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16005,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 1,
+    "assetbundleName1": "system_bondscp_014_001_first_3",
+    "assetbundleName2": "system_bondscp_014_001_second_3",
+    "releaseConditionId": 1011402,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16006,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 1,
+    "assetbundleName1": "system_bondscp_014_001_first_4",
+    "assetbundleName2": "system_bondscp_014_001_second_4",
+    "releaseConditionId": 1011403,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16007,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 4,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_004_014_first_2",
+    "assetbundleName2": "system_bondscp_004_014_second_2",
+    "releaseConditionId": 1041401,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16008,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 4,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_004_014_first_3",
+    "assetbundleName2": "system_bondscp_004_014_second_3",
+    "releaseConditionId": 1041402,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16009,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 4,
+    "gameCharacterUnitId2": 14,
+    "assetbundleName1": "system_bondscp_004_014_first_4",
+    "assetbundleName2": "system_bondscp_004_014_second_4",
+    "releaseConditionId": 1041403,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16010,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 4,
+    "assetbundleName1": "system_bondscp_014_004_first_2",
+    "assetbundleName2": "system_bondscp_014_004_second_2",
+    "releaseConditionId": 1041401,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16011,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 4,
+    "assetbundleName1": "system_bondscp_014_004_first_3",
+    "assetbundleName2": "system_bondscp_014_004_second_3",
+    "releaseConditionId": 1041402,
+    "isLotteryTarget": true
+  },
+  {
+    "id": 16012,
+    "ingameCutinCharacterType": "bonds",
+    "priority": 200,
+    "gameCharacterUnitId1": 14,
+    "gameCharacterUnitId2": 4,
+    "assetbundleName1": "system_bondscp_014_004_first_4",
+    "assetbundleName2": "system_bondscp_014_004_second_4",
+    "releaseConditionId": 1041403,
+    "isLotteryTarget": true
   }
 ]

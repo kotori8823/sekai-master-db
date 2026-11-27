@@ -10044,6 +10044,12 @@
     "seq": 0
   },
   {
+    "id": 1786,
+    "musicId": 830,
+    "musicTag": "all",
+    "seq": 0
+  },
+  {
     "id": 1960,
     "musicId": 754,
     "musicTag": "school_refusal",
@@ -10432,5 +10438,11 @@
     "musicId": 796,
     "musicTag": "vocaloid",
     "seq": 1
+  },
+  {
+    "id": 2027,
+    "musicId": 830,
+    "musicTag": "light_music_club",
+    "seq": 6
   }
 ]
